@@ -65,6 +65,9 @@ include 'layout/header.php';
             </div>
         </div>
     </section>
+    <section>
+        <h1>new record</h1>
+    </section>
 <?php 
 include 'layout/footer.php';
 ?>
