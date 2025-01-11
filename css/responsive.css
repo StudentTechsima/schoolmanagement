@@ -1,0 +1,626 @@
+    @media (max-width: 1024px) {
+        h1 {
+            font-size: 48px;
+        }
+        p,
+        td,
+        label {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .up-header {
+            padding: 0% 2.5%;
+        }
+        .up-header-icon {
+            width: 18%;
+        }
+        .navbar-txt {
+            width: 63%;
+        }
+        .hero-text {
+            left: 2.5%;
+            top: 8%;
+        }
+        .hero-img {
+            height: 530px;
+        }
+        .btn2 {
+            left: 57%;
+        }
+        .side-bar {
+            top: 750px;
+        }
+        .min-welcome,
+        .min-client {
+            width: 95%;
+        }
+        .up-welcome {
+            padding-bottom: 30px;
+        }
+        .wel-right-text {
+            gap: 10px;
+            width: 65%;
+        }
+        .min-service {
+            width: 95%;
+        }
+        .wel-left-img {
+            width: 33%;
+        }
+        /* login page start*/
+        .inner-admin {
+            width: 47%;
+        }
+        .title {
+            font-size: 58px;
+        }
+        .student-log {
+            padding: 100px 28px;
+        }
+        .student-log-left {
+            width: 55%;
+        }
+        .inner-student {
+            width: 40%;
+        }
+        /* contactus page start*/
+        .min-contact {
+            width: 90%;
+        }
+        .contact-txt-circle {
+            left: 6%;
+        }
+        .contact-text {
+            left: 18%;
+        }
+        /* findbranch page start */
+        .min-find-branch {
+            width: 96%;
+        }
+        .left-find-branch {
+            width: 24%;
+            padding: 6px;
+        }
+        /* gallery page start */
+        .image-gallery {
+            width: 99%;
+        }
+        .image-box {
+            margin-top: 12px;
+        }
+        .gallery,
+        .video,
+        .course {
+            padding: 80px 0px;
+        }
+        .min-video {
+            width: 95%;
+        }
+        .video-outer {
+            margin-top: 10px;
+        }
+        /* record page start */
+        .min-record {
+            width: 95%;
+        }
+        .record-left,
+        .record-right {
+            width: 49%;
+        }
+        .admitcard-up {
+            width: 45%;
+        }
+        .course-outer {
+            width: 47%;
+        }
+        .min-Registration {
+            width: 90%;
+        }
+        input[type="file"] {
+            font-size: 13px;
+        }
+        .account-empty label {
+            padding-right: 3px;
+        }
+        .what-we-are-inner {
+            width: 95%;
+        }
+        .what-we-are-inner1 {
+            width: 53%;
+        }
+        .last {
+            width: 45%;
+        }
+        .about-chief-main-img {
+            height: 262px;
+            width: 290px;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .navbar-txt {
+            display: none;
+        }
+        .navbar {
+            padding: 0px 0px;
+        }
+        .service-box {
+            width: 49%;
+        }
+        .down-service {
+            min-height: 1200px;
+        }
+        .hero-text {
+            width: 50%;
+        }
+        .client-up {
+            padding-bottom: 50px;
+        }
+        .hero-text {
+            height: 78%;
+        }
+        .min-welcome,
+        .client,
+        .course {
+            padding: 60px 0px;
+        }
+        .footer-anchor a {
+            font-size: 18px;
+        }
+        .footer-inner-icon {
+            height: 40px;
+            width: 40px;
+        }
+        /* login page start*/
+        .student-log {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .inner-admin {
+            width: 65%;
+        }
+        .inner-student {
+            width: 55%;
+        }
+        .student-log-left {
+            width: 72%;
+            text-align: center;
+        }
+        .student-log {
+            padding: 65px 28px;
+        }
+        /* contactus page start*/
+        .min-contact {
+            width: 80%;
+        }
+        .left-contact {
+            width: 100%;
+            min-height: 369px;
+            border-radius: 8px;
+        }
+        .right-contact {
+            width: 100%;
+        }
+        .contact-txt-circle {
+            left: 13%;
+        }
+        .contact-text {
+            left: 20%;
+        }
+        .contect-icon1 {
+            height: 62%;
+            top: 38.2%;
+        }
+        .left-contact h1 {
+            top: 17%;
+            left: 19%;
+        }
+        .outer-input,
+        .inp-contact2,
+        .inp-contact1 {
+            width: 95%;
+        }
+        /* findbranch page start */
+        .down-find-branch {
+            gap: 15px;
+        }
+        .left-find-branch {
+            width: 100%;
+            padding: 20px;
+        }
+        .right-find-branch {
+            width: 100%;
+        }
+        .gallery,
+        .video,
+        .course {
+            padding: 60px 0px;
+        }
+        .min-video {
+            width: 86%;
+        }
+        .admitcard-up {
+            width: 65%;
+        }
+        .min-course {
+            width: 95%;
+        }
+        .min-Registration {
+            width: 95%;
+        }
+        .regi-box {
+            width: 220px;
+        }
+        .outer-regi-box {
+            padding: 5px;
+        }
+        .form-group1 {
+            width: 100%;
+        }
+        .form-group .form-field,
+        .account-empty {
+            width: 48%;
+        }
+        .course-box {
+            height: 350px;
+        }
+        .what-we-are-inner1,
+        .last {
+            width: 72%;
+        }
+        .about-heading-main {
+            justify-content: center;
+            gap: 50px;
+        }
+        .about-chief-main-img {
+            height: 191px;
+            width: 292px;
+        }
+    }
+    
+    @media (max-width: 430px) {
+        h1 {
+            font-size: 34px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+        .up-header {
+            justify-content: center;
+        }
+        .up-header-text a {
+            height: 32px;
+            line-height: 18px;
+        }
+        .up-header-text {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        .up-header-icon {
+            width: 45%;
+        }
+        .logo {
+            width: 20%;
+        }
+        .navbar-txt {
+            width: 76%;
+        }
+        .service-box,
+        .wel-right-text,
+        .wel-left-img {
+            width: 100%;
+        }
+        .hero-img {
+            height: 500px;
+        }
+        .hero-text {
+            width: 97%;
+            top: 11%;
+        }
+        .client-up-left {
+            min-height: 75px;
+            width: 100%;
+        }
+        .client-up-right {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .down-service {
+            min-height: 2500px;
+        }
+        .client,
+        .min-welcome {
+            padding: 50px 0px;
+        }
+        .footer-inner {
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+        .Copyright a {
+            font-size: 14px;
+            text-align: center;
+        }
+        .footer-outer {
+            width: 90%;
+        }
+        .footer-inner-icon {
+            font-size: 20px;
+        }
+        /* login page start*/
+        .admin-log {
+            padding: 70px 33px;
+        }
+        .inner-admin {
+            width: 100%;
+        }
+        .inner-student {
+            width: 100%;
+        }
+        .std-time-log {
+            gap: 17px;
+            justify-content: center;
+        }
+        .student-log {
+            padding: 97px 15px;
+        }
+        .student-log-left {
+            width: 100%;
+        }
+        .inp-log {
+            height: 45px;
+            width: 90%;
+        }
+        .cancel {
+            width: 85%;
+        }
+        .student-log {
+            padding: 50px 15px;
+        }
+        /* hero page start */
+        .read-btn3 {
+            font-size: 20px;
+        }
+        .title {
+            font-size: 32px;
+        }
+        .hero2 {
+            gap: 14px;
+            height: 250px;
+        }
+        /* contactus page start*/
+        .min-contact {
+            width: 95%;
+            box-shadow: none;
+        }
+        .left-contact {
+            width: 100%;
+            min-height: 323px;
+        }
+        .contact-txt-circle {
+            height: 100px;
+            width: 100px;
+            left: 11%;
+        }
+        .contect-icon1 {
+            height: 64%;
+            top: 36.2%;
+        }
+        .left-contact h1 {
+            top: 14%;
+            left: 19%;
+            font-size: 44px;
+        }
+        .contect-icon {
+            width: 14%;
+        }
+        .right-contact {
+            padding: 20px 0px;
+        }
+        /* photos page start */
+        .image-gallery {
+            width: 60%;
+        }
+        .gallery,
+        .video,
+        .course {
+            padding: 40px 0px;
+        }
+        .min-video {
+            width: 76%;
+        }
+        .record-left,
+        .record-right {
+            width: 100%;
+            margin: 5px;
+        }
+        .record-left input {
+            width: 70%;
+        }
+        .admitcard-up {
+            width: 100%;
+        }
+        .course-outer {
+            width: 100%;
+        }
+        .regi-box {
+            width: 195px;
+        }
+        .outer-regi-box {
+            justify-content: center;
+        }
+        .regi-box {
+            width: 300px;
+        }
+        .form-group .form-field,
+        .account-empty {
+            width: 100%;
+        }
+        .form-group1 {
+            gap: 15px;
+        }
+        .account-empty {
+            gap: 12px;
+        }
+        .what-we-are-inner1,
+        .last {
+            width: 100%;
+        }
+        .chief-main-inner-left {
+            width: 100%;
+        }
+        .chief-main-inner-right {
+            width: 100%;
+            justify-content: center;
+        }
+        .about-chief-main-img {
+            height: 293px;
+            width: 292px;
+        }
+    }
+    
+    @media (max-width: 380px) {
+        .min-video {
+            width: 84%;
+        }
+        .student-registraiton {
+            padding: 30px 8px;
+        }
+        .our-mission-section-inner {
+            gap: 30px;
+        }
+        .our-mission-section-box-content {
+            min-height: 300px;
+            width: 300px;
+        }
+        .our-mission-section-box {
+            min-height: 340px;
+            width: 340px;
+        }
+    }
+    
+    @media (max-width: 330px) {
+        p,
+        td,
+        label {
+            font-size: 15px;
+        }
+        h2 {
+            font-size: 28px;
+        }
+        input[type="file"] {
+            font-size: 12px;
+        }
+        .btn2 {
+            left: 65%;
+        }
+        .read-btn5 {
+            width: 115px;
+        }
+        .footer-anchor a {
+            font-size: 16px;
+        }
+        .client-up {
+            padding-bottom: 15px;
+        }
+        h1 {
+            font-size: 25px;
+        }
+        h3 {
+            font-size: 21px;
+        }
+        .logo {
+            width: 23%;
+        }
+        .footer-inner {
+            gap: 10px;
+        }
+        p,
+        td,
+        label {
+            font-size: 11px;
+        }
+        .hero2 {
+            gap: 14px;
+            height: 250px;
+            padding: 0px 12px;
+            align-items: flex-start;
+        }
+        /* contact page start */
+        .inp-contact1 {
+            height: 40px;
+        }
+        .inp-contact {
+            height: 40px;
+            width: 100%;
+        }
+        .outer-input {
+            gap: 15px;
+        }
+        .inp-contact2 {
+            height: 86px;
+        }
+        .read-btn4 {
+            width: 50%;
+        }
+        .read-secondary {
+            font-size: 15px;
+        }
+        .contact-text {
+            left: 19%;
+            padding-left: 0px;
+        }
+        .contact-txt-circle {
+            left: 8%;
+        }
+        /* findbranch page start */
+        .find-branch,
+        .course {
+            padding: 40px 0px;
+        }
+        .min-find-branch h4 {
+            font-size: 20px;
+        }
+        .left-find-branch {
+            width: 100%;
+            padding: 5px;
+        }
+        .read-btn5 {
+            height: 35px;
+            font-size: 16px;
+        }
+        /* image page start */
+        .image-gallery {
+            width: 78%;
+        }
+        .admitcard-circle {
+            height: 100px;
+            width: 100px;
+        }
+        .cancel-btn-outer {
+            width: 80%;
+        }
+        .admitcard-up input {
+            width: 95%;
+        }
+        .read-btn4 {
+            height: 37px;
+            width: 42%;
+        }
+        .about-chief-main-img {
+            height: 274px;
+            width: 292px;
+        }
+        .our-mission-section-box-content {
+            min-height: 250px;
+            width: 250px;
+        }
+        .our-mission-section-box {
+            min-height: 290px;
+            width: 323px;
+        }
+    }

@@ -1,0 +1,1798 @@
+/* Dashboard Page start */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sadmin-outer {
+    min-height: 500px;
+    width: 100%;
+    background-color: azure;
+    border: 1px solid #000;
+}
+
+.sadmin-nav {
+    min-height: 70px;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sadmin-fnav-header {
+    height: 70px;
+    width: 20%;
+    background-color: #1b374d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sadmin-snav-header {
+    height: 70px;
+    width: 80%;
+    color: #fff;
+    background-color: #1b374d;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-btn {
+    height: 70px;
+    width: 50%;
+    font-size: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sadmin-image {
+    height: 70px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.sadmin-image img {
+    height: 60px;
+    width: 14%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Popup Image Section Start  */
+.sadmin-profileImage-popup {
+    min-height: 110px;
+    width: 400px;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    display: none;
+    /* background: #000; */
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.sadmin-popup-content {
+    min-height: 110px;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #00000033;
+    text-align: center;
+}
+
+.sadmin-popup-content img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.sadmin-popup-contentText {
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.sadmin-popupButton {
+    box-shadow: 0px 0px 1px 1px #0000001a;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sadmin-profileButton {
+    height: 43px;
+    width: 30%;
+    padding: 6px 0px;
+    background: #4caf50;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.sadmin-profileButton-text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Popup Image Section End  */
+/* Dashboard Page Start */
+.sadmin-main-dash {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+
+}
+
+/* Dashboard leftside Start */
+.sadmin-panel-lftside {
+    min-height: 300px;
+    width: 20%;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px #0000001a;
+    font-family: Arial, sans-serif;
+}
+
+.sadmin-userPannal {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sadmin-info {
+    min-height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/user-info.jpg);
+    background-size: cover;
+}
+
+.sadmin-info p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.sadmin-info i {
+    color: #080;
+}
+
+.sadmin-navMenu {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sadmin-heading {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #333;
+}
+
+.li {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px #0000001a;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.li:hover {
+    z-index: 100;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px #00000033;
+}
+
+.li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    color: #333;
+}
+
+.icon {
+    height: 50px;
+    width: 20%;
+    flex: 0 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+.sadmin-panel-lftside-text {
+    height: 50px;
+    width: 80%;
+    flex: 1;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sadmin-span {
+    font-size: 20px;
+}
+
+/* Dashboard leftside end */
+
+/* Dashboard Rightside Start */
+.sadmin-panel-rhtside {
+    min-height: 400px;
+    width: 80%;
+    background-color: #cacdcf;
+}
+
+.sadmin-main-stu-panal {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sadmin-stu-panal {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.sadmin-stu-panal span {
+    padding-left: 10px;
+}
+
+.sadmin-stu-panal h3 {
+    padding-right: 20px;
+}
+
+.sadmin-stp-ryt {
+    padding-right: 20px;
+}
+
+.dashbox {
+    min-height: 170px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.sadmin-card-dashbox {
+    height: 200px;
+    width: 32%;
+    background-color: #6998a9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #00000026;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sadmin-card-dashbox:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px #0000004d;
+}
+
+.sadmin-card-dashbox-header {
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+
+.sadmin-card-dashbox-count {
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.sadmin-card-dashbox-title {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.sadmin-card-dashbox-icon {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-size: 90px;
+    opacity: 0.2;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.sadmin-card-dashbox-icon:hover {
+    transform: rotate(7deg) scale(1.2);
+    opacity: 0.5;
+}
+
+.sadmin-card-dashbox-footer {
+    background-color: #406882;
+    padding: 10px 15px;
+    text-align: right;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sadmin-card-dashbox-footer a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* -------------------------------------- */
+.sadmin-dashbox-scroll {
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sadmin-dashbox-lftscroll {
+    min-height: 500px;
+    width: 47.5%;
+    border: 2px solid #1b374d;
+    background-color: #fff;
+}
+
+.sadmin-course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+    background: #ebebeb;
+}
+
+.sadmin-course-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.sadmin-course-name {
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sadmin-course-price {
+    background-color: #ff5252;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.sadmin-course-item:last-child {
+    border-bottom: none;
+}
+
+.marquee {
+    height: 500px;
+    width: 100%;
+}
+
+.sadmin-dashbox-rhtscroll {
+    min-height: 500px;
+    width: 47.5%;
+    border: 2px solid #1b374d;
+    background-color: #fff;
+}
+
+.sadmin-mini-box-ch {
+    padding-left: 200px;
+    color: #e70e0e;
+
+}
+
+.sadmin-text-white {
+    padding-left: 10px;
+    color: green;
+}
+
+.sadmin-course-header-marquee {
+    height: 40px;
+    font-size: 24px;
+    text-transform: uppercase;
+    /* background: red; */
+    border-bottom: 1px solid gray;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+.sadmin-news-note {
+    padding-left: 10px;
+}
+
+/* Dashboard Rightside end */
+
+/* Dashboard Page end */
+/* Footer Page Start */
+.sadmin-footer {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+}
+
+.sadmin-leftsidefooter {
+    min-height: 50px;
+    width: 20%;
+    background-color: #1b374d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sadmin-ficon {
+    font-size: 25px;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.sadmin-ficon:hover {
+    color: #7a7777;
+}
+
+.sadmin-Rightsidefooter {
+    min-height: 50px;
+    width: 80%;
+    color: #fff;
+    background-color: #1b374d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sadmin-Rightsidefooter p {
+    font-size: 28px;
+}
+
+/* Footer Page end */
+/* Dashboard Page end */
+/* studentadmin Page start */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sadmin-outer {
+    min-height: 500px;
+    width: 100%;
+    background-color: azure;
+    border: 1px solid #000;
+}
+
+.sadmin-nav {
+    min-height: 70px;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sadmin-fnav-header {
+    height: 70px;
+    width: 20%;
+    background-color: #1b374d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.sadmin-snav-header {
+    height: 70px;
+    width: 80%;
+    color: #fff;
+    background-color: #1b374d;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-btn {
+    height: 70px;
+    width: 50%;
+    font-size: 30px;
+    padding-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sadmin-image {
+    height: 70px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.sadmin-image img {
+    height: 60px;
+    width: 14%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Popup Image Section Start  */
+.sadmin-profileImage-popup {
+    min-height: 110px;
+    width: 400px;
+    position: absolute;
+    top: 75px;
+    right: 0px;
+    display: none;
+    /* background: #000; */
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.sadmin-popup-content {
+    min-height: 110px;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.sadmin-popup-content img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.sadmin-popup-contentText {
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.sadmin-popupButton {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sadmin-profileButton {
+    height: 43px;
+    width: 30%;
+    padding: 6px 0px;
+    background: #4caf50;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.sadmin-profileButton-text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Popup Image Section End  */
+/* Dashboard Page Start */
+.sadmin-main-dash {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+
+}
+
+/* Dashboard leftside Start */
+.sadmin-panel-lftside {
+    min-height: 300px;
+    width: 20%;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.sadmin-userPannal {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sadmin-info {
+    min-height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/user-info.jpg);
+    background-size: cover;
+}
+
+.sadmin-info p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.sadmin-info i {
+    color: #080;
+}
+
+.sadmin-navMenu {
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sadmin-heading {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #333;
+}
+
+.li {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.li:hover {
+    z-index: 100;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    color: #333;
+}
+
+.icon {
+    height: 50px;
+    width: 20%;
+    flex: 0 0 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+}
+
+.sadmin-panel-lftside-text {
+    height: 50px;
+    width: 80%;
+    flex: 1;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sadmin-span {
+    font-size: 20px;
+}
+
+/* Dashboard leftside end */
+
+/* Dashboard Rightside Start */
+.sadmin-panel-rhtside {
+    min-height: 400px;
+    width: 80%;
+    background-color: #cacdcf;
+}
+
+.sadmin-main-stu-panal {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.sadmin-stu-panal {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.sadmin-stu-panal span {
+    padding-left: 10px;
+}
+
+.sadmin-stu-panal h3 {
+    padding-right: 20px;
+}
+
+.sadmin-stp-ryt {
+    padding-right: 20px;
+}
+
+.dashbox {
+    min-height: 170px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Dashboard Rightside end */
+
+/* Dashboard Page end */
+/* Footer Page Start */
+.sadmin-footer {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+}
+
+.sadmin-leftsidefooter {
+    min-height: 50px;
+    width: 20%;
+    background-color: #1b374d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sadmin-ficon {
+    font-size: 25px;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.sadmin-ficon:hover {
+    color: #7a7777;
+}
+
+.sadmin-Rightsidefooter {
+    min-height: 50px;
+    width: 80%;
+    color: #fff;
+    background-color: #1b374d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sadmin-Rightsidefooter p {
+    font-size: 28px;
+}
+
+/* Footer Page end */
+/* studentadmin Page end */
+/* sadmin fees css file start here */
+.stu-log-fees-container {
+    min-height: 460px;
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.stu-log-fees-header {
+    background: #00264d;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stu-log-fees-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+.stu-log-fees-table th,
+.stu-log-fees-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+.stu-log-fees-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.stu-log-fees-footer {
+    padding: 15px;
+    background: #f8f9fa;
+    border-top: 1px solid #ddd;
+}
+
+.stu-log-fees-footer .input-container {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 6px;
+}
+
+.stu-log-fees-footer label {
+    font-size: 16px;
+    margin-right: 6px;
+    padding-left: 8px;
+    color: #4CAF50;
+}
+
+.stu-log-fees-footer input[type="text"] {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.stu-log-fees-footer button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 10px 265px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.stu-log-fees-footer button:hover {
+    background-color: #c9302c;
+}
+
+.stu-log-fees-link {
+    background: #007bff;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stu-log-fees-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .stu-log-fees-footer .input-container {
+        flex-direction: column;
+    }
+
+    .stu-log-fees-footer input[type="text"] {
+        margin-bottom: 10px;
+    }
+
+    .stu-log-fees-footer button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .stu-log-fees-header {
+        font-size: 16px;
+    }
+
+    .stu-log-fees-table th,
+    .stu-log-fees-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* sadmin fees css file end here  */
+/* sadmin online test css file start here */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sadmin-table-container {
+    margin: 20px auto;
+    width: 90%;
+    overflow-x: auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sadmin-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.sadmin-table th {
+    background-color: hsl(120, 100%, 20%);
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.sadmin-table td {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #fff;
+    font-size: 14px;
+}
+
+.sadmin-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.sadmin-strong {
+    font-weight: bold;
+    color: black;
+}
+
+.sadmin-active-status {
+    color: hsl(19, 66%, 42%);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+    .sadmin-table th,
+    .sadmin-table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .sadmin-table th,
+    .sadmin-table td {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    .sadmin-table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+/* sadmin online test css file end here */
+/* sadmin responsive css file start here */
+@media (max-width: 1025px) {
+    .sadmin-image img {
+        width: 19%;
+    }
+
+    .icon {
+        font-size: 22px;
+        padding-right: 20px;
+    }
+
+    .sadmin-span {
+        font-size: 13px;
+    }
+
+    .sadmin-card-dashbox {
+        width: 45%;
+    }
+
+    .sadmin-mini-box-ch {
+        padding-left: 60px;
+    }
+
+    .sadmin-ficon {
+        padding-right: 39px;
+    }
+
+    .sadmin-Rightsidefooter p {
+        font-size: 34px;
+        text-align: center;
+    }
+}
+
+@media (max-width:769px) {
+    .sadmin-image img {
+        width: 19%;
+    }
+
+    .sadmin-card-dashbox {
+        height: 175px;
+        width: 48%;
+    }
+
+    .sadmin-card-dashbox-title {
+        font-size: 12px;
+    }
+
+    .sadmin-card-dashbox-footer a {
+        font-size: 15px;
+    }
+
+    .sadmin-dashbox-lftscroll {
+        width: 94%;
+        margin-bottom: 20px;
+    }
+
+    .icon {
+        font-size: 20spx;
+        padding-right: 28px;
+    }
+
+    .sadmin-span {
+        font-size: 8px;
+    }
+
+    .sadmin-ficon {
+        font-size: 20px;
+        padding-right: 26px;
+    }
+
+    .sadmin-dashbox-rhtscroll {
+        width: 94%;
+    }
+    .sadmin-Rightsidefooter p {
+        font-size: 23px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .sadmin-fnav-header {
+        width: 100%;
+    }
+
+    .sadmin-snav-header {
+        width: 100%;
+    }
+
+    .sadmin-panel-lftside {
+        display: none;
+    }
+
+    .sadmin-image img {
+        width: 35%;
+    }
+
+    .sadmin-profileImage-popup {
+        top: 142px;
+    }
+
+    .sadmin-panel-rhtside {
+        width: 100%;
+    }
+
+    .sadmin-stu-panal h2 {
+        font-size: 18px;
+    }
+
+    .sadmin-stu-panal span {
+        display: none;
+    }
+
+    .sadmin-stu-panal h5 {
+        display: none;
+    }
+
+    .sadmin-stu-panal i {
+        display: none;
+    }
+
+    .sadmin-card-dashbox {
+        width: 100%;
+    }
+
+    .sadmin-card-dashbox-title {
+        font-size: 12px;
+    }
+
+    .sadmin-dashbox-lftscroll {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .fa-comments:before {
+        font-size: 16px;
+    }
+
+    .fa-square:before {
+        padding-left: 1px;
+        display: none;
+    }
+
+    .sadmin-dashbox-rhtscroll {
+        width: 90%;
+    }
+
+    .sadmin-news-note {
+        padding-left: 3px;
+    }
+
+    .sadmin-leftsidefooter {
+        display: none;
+    }
+
+    .sadmin-Rightsidefooter {
+        height: 60px;
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .sadmin-Rightsidefooter p {
+        font-size: 19px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .sadmin-fnav-header {
+        width: 100%;
+    }
+
+    .sadmin-snav-header {
+        width: 100%;
+    }
+
+    /* .sadmin-panel-lftside {
+        display: none;
+    } */
+
+    .sadmin-image img {
+        width: 40%;
+    }
+
+    .sadmin-profileImage-popup {
+        top: 142px;
+    }
+
+    .sadmin-popup-content {
+        padding-left: 90px;
+    }
+
+    .sadmin-panel-rhtside {
+        width: 100%;
+    }
+
+    .sadmin-stu-panal h2 {
+        font-size: 18px;
+    }
+
+    .sadmin-stu-panal span {
+        display: none;
+    }
+
+    .sadmin-stu-panal h5 {
+        display: none;
+    }
+
+    .sadmin-stu-panal i {
+        display: none;
+    }
+
+    .sadmin-card-dashbox {
+        width: 100%;
+    }
+
+    .sadmin-card-dashbox-title {
+        font-size: 12px;
+    }
+
+    .sadmin-dashbox-lftscroll {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .fa-square:before {
+        padding-left: 5px;
+        display: none;
+    }
+
+    .sadmin-dashbox-rhtscroll {
+        width: 90%;
+    }
+
+    .sadmin-news-note {
+        padding-left: 3px;
+        font-size: 18px;
+    }
+
+    /* .sadmin-leftsidefooter {
+        display: none;
+    } */
+
+    .sadmin-Rightsidefooter {
+        height: 60px;
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .sadmin-Rightsidefooter p {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+/* sadmin responsive css file end here */
+
+/* sadmin result css file start here */
+.sadmin-exam-report-container {
+    min-height: 100px;
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+.sadmin-exam-report td {
+    background-color: #ffffcc;
+    color: #8b0000;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+/* sadmin result css file end here */
+
+/* sadmin study css file start here  */
+.stu-log-study-mat-sadmin {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stu-log-study-mat-sadmin h2 {
+    background-color: #005b88;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    height: 50px;
+    border: 2px solid #fff;
+    background: #005b88;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead tr {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 15px;
+        display: block;
+    }
+}
+/* sadmin study css file end here  */
+
+
+/* sadmin syllabus css file start here  */
+.stu-log-syllabus {
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    min-height: 100px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stu-log-syllabus h2 {
+    background-color: #005b88;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+/* sadmin  syllabus css file end here  */
+
+
+/* sadmin video css file start here  */
+.sadmin-study-con {
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.sadmin-youtube-study {
+    min-height: 200px;
+    width: 50%;
+    padding-top: 20px;
+
+}
+
+.iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+/* sadmin video css file end here  */
+
+/* sadmin youtube css file start here  */
+.stu-log-YT {
+    min-height: 100px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stu-log-YT h2 {
+    background-color: #005b88;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: left;
+}
+/* sadmin youtube css file end here  */
+
+
+
+/* sadmin zoom css file start here  */
+.stu-log-zoom {
+    min-height: 300px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stu-log-zoom h2 {
+    background-color: #005b88;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #e9edef;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+table th {
+    background-color: #005b88;
+    color: #fff;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+.go-to-class-btn {
+    display: inline-block;
+    background-color: #d9534f;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.go-to-class-btn:hover {
+    background-color: #c9302c;
+}
+
+@media (max-width: 768px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    thead tr {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    tbody td {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        padding: 10px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tbody td:last-child {
+        text-align: right;
+    }
+
+    tbody td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #333;
+        flex-basis: 50%;
+    }
+
+    .go-to-class-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+/* sadmin zoom css file end here  */
+
+/* student profile css file start here */
+.stu-log-profile-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.stu-log-profile-header {
+    background: #f8f9fa;
+    padding: 15px;
+    text-align: start;
+    border-bottom: 1px solid #ddd;
+}
+
+.stu-log-profile-header h1 {
+    margin: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stu-log-profile-header h1 span {
+    font-size: 14px;
+    color: #555;
+    padding-left: 9px;
+}
+
+.stu-log-profile-table-container {
+    padding: 20px;
+}
+
+.stu-log-profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.stu-log-profile-table th,
+.stu-log-profile-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    word-wrap: break-word;
+}
+
+.stu-log-profile-table th {
+    background-color: #f8f9fa;
+}
+
+.stu-log-profile-footer {
+    padding: 10px 20px;
+    background: #f8f9fa;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stu-log-profile-footer span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stu-log-profile-footer button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 80px;
+
+}
+
+.stu-log-profile-footer button i {
+    margin-right: 5px;
+}
+
+.stu-log-profile-footer button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+
+    .stu-log-profile-table th,
+    .stu-log-profile-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .stu-log-profile-footer span {
+        font-size: 14px;
+    }
+
+    .stu-log-profile-footer button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stu-log-profile-header h1 {
+        font-size: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .stu-log-profile-header h1 span {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .stu-log-profile-table th,
+    .stu-log-profile-table td {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .stu-log-profile-footer span {
+        font-size: 12px;
+    }
+
+    .stu-log-profile-footer button {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+}
+/* student profile css file end here */
+/* payment css file start here */
+        .stu-payment-container {
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .stu-payment-modal {
+            width: 100%;
+            max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .stu-payment-modal h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+
+        .stu-payment-modal table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            overflow-x: auto;
+        }
+
+        .stu-payment-modal thead th {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .stu-payment-modal tbody td,
+        .stu-payment-modal tfoot td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .stu-payment-modal tfoot td {
+            font-weight: bold;
+            background-color: #f1f1f1;
+        }
+
+        .stu-payment-print-btn {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .stu-payment-print-btn:hover {
+            background-color: #218838;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .stu-payment-modal {
+                padding: 15px;
+            }
+
+            .stu-payment-modal h2 {
+                font-size: 18px;
+            }
+
+            .stu-payment-modal table {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stu-payment-modal {
+                padding: 10px;
+            }
+
+            .stu-payment-modal h2 {
+                font-size: 16px;
+            }
+
+            .stu-payment-modal table {
+                font-size: 12px;
+            }
+
+            .stu-payment-print-btn {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+  
+/* payment css file end here */
+

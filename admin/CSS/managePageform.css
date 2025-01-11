@@ -1,0 +1,585 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.admin-dashboard {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    /* background: #000; */
+}
+
+/* --------------Header Section Start--------------- */
+.admin-header {
+    height: 50px;
+    width: 100%;
+    /* background: #ccc; */
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.admin-headerLeft {
+    height: 100%;
+    width: 20%;
+    background: #73f4f4;
+}
+
+.admin-marqueeText {
+    font-size: 24px;
+    line-height: 55px;
+    font-weight: 100;
+}
+
+.admin-headerRight {
+    height: 100%;
+    width: 80%;
+    background: #0cd1d1;
+    /* transition: width ease 0.3s; */
+
+}
+
+
+
+.admin-headerRight-header {
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* transition: width ease 0.3s; */
+}
+
+.admin-headerRight-toggleButton {
+    height: 50px;
+    width: 4%;
+}
+
+.admin-headerRight-toggleButton .toggle {
+    font-size: 30px;
+    padding: 13px 19px;
+    cursor: pointer;
+}
+
+.admin-headerRight-toggleButton .toggle:hover {
+    background: #389af0;
+}
+
+.admin-headerRight-header-left {
+    height: 50px;
+    width: 320px;
+    display: flex;
+}
+
+.admin-headerRight-wallet {
+    height: 100%;
+    width: 200px;
+    padding-top: 17px;
+    padding-left: 5px;
+    display: flex;
+
+}
+
+.admin-headerRight-walletMoney {
+    background: #080;
+    padding: 10px 20px;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.admin-headerRight-wallet:hover {
+    background: #389af0;
+    cursor: pointer;
+}
+
+.admin-headerRight-logo {
+    min-height: 100%;
+    width: 120px;
+    position: relative;
+}
+
+.admin-headerRight-logo img {
+    width: 40%;
+    margin: 1px 30px;
+}
+
+.admin-headerRight-logo:hover {
+    background: #389af0;
+    cursor: pointer;
+}
+
+.admin-headerRight-profileImage-popup {
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    width: 300px;
+    min-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    background: #000;
+    z-index: 1;
+}
+
+.admin-headerRight-popupContent {
+    width: 300px;
+    min-height: 110px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.admin-headerRight-popup-contentText {
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.admin-headerRight-popupButton {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.admin-headerRight-profileButton {
+    padding: 7px 15px;
+    background: #4caf50;
+    border: none;
+    outline: none;
+}
+
+.admin-headerRight-profileButton-text {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* --------------Header Section End--------------- */
+
+
+/* --------------Main Section Start--------------- */
+.admin-main-section {
+    min-height: 650px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+/* --------------admin sidebar Section Start--------------- */
+.admin-main-sidebar {
+    width: 20%;
+    background: #ccc;
+    min-height: 650px;
+    /* transition: width ease 0.3s; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.admin-sidebar-userPannal {
+    height: 80px;
+    width: 100%;
+    background: #000;
+    display: flex;
+}
+
+.admin-sidebarLogo img {
+    height: 50px;
+    margin: 15px 15px;
+}
+
+.admin-sidebarInfo {
+    line-height: 80px;
+    font-size: 24px;
+    margin-left: 18px;
+    color: #fff;
+}
+
+/* ------------------navMenu Option start--------------- */
+.admin-sidebarMenu {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.admin-sidebarHeading {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 20px;
+    list-style-type: none;
+
+}
+
+.admin-sidebarDashboard {
+    height: 40px;
+    background: #000;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.admin-sidebarDashboard-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.admin-sidebarDashboard i {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin: 7px 20px;
+}
+
+.admin-sidebarOption .admin-sidebarOption-link i,
+.admin-sidebarOption-link {
+    height: 30px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    margin: 7px 20px;
+    padding: 4px 0px;
+}
+
+.admin-sidebarOption:hover {
+    background: #ddd;
+}
+
+/* ------------------navMenu Option end--------------- */
+/* ----------------navBar dropdown option start---------*/
+
+.admin-sidebarMenu-optionOuter {
+    padding: 0px 15px;
+    list-style-type: none;
+    width: 100%;
+
+}
+
+.admin-sidebarMenu-optionOuter:hover {
+    background: #ddd;
+}
+
+.admin-sidebarMenu-outerHead {
+    display: flex;
+    color: #000;
+    padding: 10px;
+    padding-right: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.outer-file {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.admin-sidebarMenu-outerHead h3 {
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+
+.admin-sidebarMenu-outerHead .icon {
+    font-size: 18px;
+    transition: transform 0.3s;
+    position: absolute;
+    left: 260px;
+    overflow: hidden;
+}
+
+.admin-sidebarMenu-inner {
+    max-height: 0;
+    padding-left: 50px;
+    list-style-type: none;
+    text-align: start;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-out;
+}
+
+.admin-sidebarMenu-inner.open {
+    max-height: 500px;
+}
+
+.admin-sidebarMenu-list {
+    height: 35px;
+}
+
+.inner-circle {
+    padding-top: 5px;
+    font-size: 10px;
+
+}
+
+.admin-sidebarMenu-option {
+    text-decoration: none;
+    color: rgb(85, 82, 82);
+    text-align: start;
+    font-weight: 100;
+    font-size: 13px;
+    display: flex;
+    margin-left: 17px;
+}
+
+.admin-sidebarMenu-innerData {
+    font-weight: 100;
+    padding-left: 10px;
+}
+
+.admin-sidebarMenu-innerData:hover {
+    color: #0cd1d1;
+}
+
+/* --------------Admin sidebar Section end--------------- */
+
+/* --------------Admin containt Panel Section Start--------------- */
+.admin-container-panel {
+    min-height: 650px;
+    width: 80%;
+    /* background: rgb(90, 86, 86); */
+
+}
+
+.admin-containerPanel-header {
+    height: 79px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+
+}
+
+.admin-containerPanel-controlText {
+    font-size: 16px;
+    padding: 30px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.admin-containerPanel-text {
+    font-size: 16px;
+    padding: 30px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.admin-containerPanel-spanText {
+    color: rgb(116, 113, 113);
+    font-size: 16px;
+    padding-left: -10px;
+}
+
+.controlText-link {
+    text-decoration: none;
+    color: #000;
+}
+
+/* ----------end of innner header code--------- */
+
+/* --------- admin panal content Copy/ Past section----*/
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-managePageform-container {
+    min-height: 350px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    border-radius: 4px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.admin-managePageform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.admin-managePageform-Table {
+    width: 90%;
+    min-height: 300px;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.admin-managePageform-Tablerow {
+    border: 1px solid #ccc;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-managePageform-Tablelebal {
+    font-size: 18px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: center;
+
+}
+
+.admin-managePageform-Tabledata {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.admin-managePageform-Input {
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.admin-managePageform-Form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.admin-managePageform-Upadtebutton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+
+    .admin-managePageform--text {
+        font-size: 15px;
+    }
+
+    .admin-managePageform-Tablerow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-managePageform-Tablelebal {
+        width: 100%;
+    }
+
+    .admin-managePageform-Tabledata {
+        width: 100%;
+    }
+
+    .admin-managePageform-Input {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* --------------Admin containt Panel Copy/Past Section End--------------- */
+/* --------------Main Section End--------------- */
+
+
+/* --------------Footer Section Start--------------- */
+.admin-footer {
+    height: 50px;
+    background: #ccc;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.admin-footerLeft {
+    height: 100%;
+    width: 20%;
+    background: #73f4f4;
+    position: fixed;
+    top: 93%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.asidebar-footer-icon {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.asidebar-footer-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.admin-footerRight {
+    height: 100%;
+    width: 80%;
+    background: #f2f2f2;
+    position: sticky;
+    left: 20%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.admin-footerRight-textRight {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+}
+
+.admin-footerRight-link {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.5px;
+}
+
+.admin-footerRight-textLeft {
+    padding-right: 10px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+
+}
+
+
+/* --------------Footer Section End--------------- */

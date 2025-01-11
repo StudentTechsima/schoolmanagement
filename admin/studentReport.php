@@ -1,0 +1,253 @@
+<?php
+include('layout/header.php');
+?>
+
+
+<main class="admin-main-section">
+
+    <?php
+    include('layout/aside.php');
+    ?>
+
+    <section class="admin-container-panel" id="admin-panel">
+        <div class="admin-containerPanel-header">
+            <h3 class="admin-containerPanel-text">Control Panel</h3>
+            <h2 class="admin-containerPanel-controlText"><a href="" class="controlText-link"><i class="fa-solid fa-gauge"></i>
+                    Home ›</a><span class="admin-containerPanel-spanText">Dashboard</span></h2>
+        </div>
+
+        <div class="admin-containerPanel-content">
+            <div class="admin-studentReport-container">
+                <h2 class="admin-studentReport-text"><i class="fa fa-file"></i> MANAGE STUDENT</h2>
+                <form action="" class="admin-studentReport-form">
+
+                    <div class="admin-studentReport-formGroup">
+                        <label for="Branch" class="admin-studentReport-formLabel">Branch</label>
+                        <select name="" id="" class="admin-studentReport-formInput">
+                            <option value="">--Select Branch--</option>
+                            <option value="">(1901)Kalki Copmuters</option>
+                            <option value="">(Demo) CT</option>
+                            <option value="">(0001) Radha Krishna Computer</option>
+                            <option value="">(8401) Maa Sharde Computer Academy</option>
+                        </select>
+                    </div>
+
+                    <div class="admin-studentReport-formGroup">
+                        <label for="Branch" class="admin-studentReport-formLabel">From Date</label>
+                        <input type="date" class="admin-studentReport-formInput">
+                    </div>
+                    <div class="admin-studentReport-formGroup">
+                        <label for="Branch" class="admin-studentReport-formLabel">To Date</label>
+                        <input type="date" class="admin-studentReport-formInput">
+                    </div>
+                    <div class="admin-studentReport-formGroup">
+                        <label for="Branch" class="admin-studentReport-formLabel">All</label>
+                        <select name="" id="" class="admin-studentReport-formInput">
+                            <option value="">--Select Branch--</option>
+                            <option value="">Shanti Institue Technology and Management (SITM) </option>
+                            <option value="">CCC</option>
+                            <option value="">CCA</option>
+                            <option value="">Artificial Intelligence</option>
+                            <option value="">Diploma Courses</option>
+                            <option value="">CCA</option>
+                            <option value="">Artificial Intelligence</option>
+                            <option value="">Diploma Courses</option>
+                        </select>
+                    </div>
+                    <div class="admin-studentReport-formGroup">
+                        <label for="Branch" class="admin-studentReport-formLabel">Courses</label>
+                        <select name="" id="" class="admin-studentReport-formInput">
+                            <option value="">--Select Branch--</option>
+                            <option value="">Microsoft Excel</option>
+                            <option value="">Microsoft Word</option>
+                            <option value="">Adobe Photoshop</option>
+                            <option value="">Certificate Basic Computer</option>
+                            <option value="">Page Maker</option>
+                            <option value="">Master In computer Science</option>
+                            <option value="">Telly ERP 9</option>
+                        </select>
+                    </div>
+
+                    <div class="admin-studentReport-formButton">
+                        <input type="submit" value="Search" class="admin-studentReport-formButtoninput">
+                    </div>
+
+
+                </form>
+
+                <div class="admin-studentReport-button">
+                    <a href="#" class="admin-studentReport-bLink">Export</a>
+                    <a href="#" class="admin-studentReport-bLink">SEND SMS</a>
+                </div>
+
+                <table class="admin-studentReport-tableOuter">
+                    <thead>
+                        <tr>
+                            <th class="admin-studentReport-tableHead">S.No</th>
+                            <th class="admin-studentReport-tableHead">Form No.</th>
+                            <th class="admin-studentReport-tableHead">Student Name</th>
+                            <th class="admin-studentReport-tableHead">Contact Number</th>
+                            <th class="admin-studentReport-tableHead">Course</th>
+                            <th class="admin-studentReport-tableHead">Due</th>
+                            <th class="admin-studentReport-tableHead">Last Pay</th>
+                            <th class="admin-studentReport-tableHead">Admit Card</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="admin-studentReport-tableData">
+                                <div class="admin-studentReport-containImg">
+                                    1.
+                                </div>
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                HNIS22061
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                Bapan Sarkar
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                8011863847
+                            </td>
+
+                            <td class="admin-studentReport-tableData">
+                                Page Maker
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                0
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                13/12/2024
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                <a href="" class="admin-studentReport-actionLink">
+                                    <i class="fa-regular fa-square-check"></i>
+                                    <button class="admin-studentReport-buttonIcon"><i class="fa-solid fa-user"></i></button>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="admin-studentReport-tableData">
+                                <div class="admin-studentReport-containImg">
+                                    2.
+                                </div>
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                HNIS22061
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                Bapan Sarkar
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                8011863847
+                            </td>
+
+                            <td class="admin-studentReport-tableData">
+                                Page Maker
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                0
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                13/12/2024
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                <a href="" class="admin-studentReport-actionLink">
+                                    <i class="fa-regular fa-square-check"></i>
+                                    <button class="admin-studentReport-buttonIcon"><i class="fa-solid fa-user"></i></button>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="admin-studentReport-tableData">
+                                <div class="admin-studentReport-containImg">
+                                    3.
+                                </div>
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                HNIS22061
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                Bapan Sarkar
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                8011863847
+                            </td>
+
+                            <td class="admin-studentReport-tableData">
+                                Page Maker
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                0
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                13/12/2024
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                <a href="" class="admin-studentReport-actionLink">
+                                    <i class="fa-regular fa-square-check"></i>
+                                    <button class="admin-studentReport-buttonIcon"><i class="fa-solid fa-user"></i></button>
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="admin-studentReport-tableData">
+                                <div class="admin-studentReport-containImg">
+                                    4.
+                                </div>
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                HNIS22061
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                Bapan Sarkar
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                8011863847
+                            </td>
+
+                            <td class="admin-studentReport-tableData">
+                                Page Maker
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                0
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                13/12/2024
+                            </td>
+                            <td class="admin-studentReport-tableData">
+                                <a href="" class="admin-studentReport-actionLink">
+                                    <i class="fa-regular fa-square-check"></i>
+                                    <button class="admin-studentReport-buttonIcon"><i class="fa-solid fa-user"></i></button>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                <div class="admin-studentReport-tablePage">
+                    <div class="admin-studentReport-tablePageinner">
+                        <button class="admin-studentReport-tablePagebutton">First</button>
+                        <button class="admin-studentReport-tablePagebutton">« Previous</button>
+                        <button class="admin-studentReport-tablePagebutton">Page 1 | 2 |</button>
+                        <button class="admin-studentReport-tablePagebutton">Last</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<?php
+include('layout/footer.php');
+?>
