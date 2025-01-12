@@ -179,7 +179,6 @@
     width: 20%;
     background: #ccc;
     min-height: 650px;
-    /* transition: width ease 0.3s; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -245,24 +244,31 @@
     margin: 7px 20px;
 }
 
+
+.admin-sidebarOption-link {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
 .admin-sidebarOption .admin-sidebarOption-link i,
 .admin-sidebarOption-link {
-    height: 30px;
+    height: 40px;
     text-decoration: none;
     color: #000;
     text-align: center;
     font-size: 17px;
     margin: 7px 20px;
-    padding: 3px 10px;
+    padding: -3px 20px;
     display: flex;
     align-items: center;
+    
 }
 
 .admin-sidebarOption-innerText {
     padding-top: 0px;
 }
 
-.admin-sidebarOption:hover {
+.admin-sidebarOption-link:hover {
     background: #ddd;
 }
 
@@ -276,7 +282,7 @@
 
 }
 
-.admin-sidebarMenu-optionOuter:hover {
+.admin-sidebarMenu-outerHead:hover {
     background: #ddd;
 }
 
@@ -291,6 +297,9 @@
     font-size: 18px;
     position: relative;
     overflow: hidden;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin: 6px;
 }
 
 .outer-file {
@@ -299,7 +308,7 @@
 }
 
 .admin-sidebarMenu-outerHead h3 {
-    padding-left: 15px;
+    padding-left: 22px;
     font-weight: 100;
     font-size: 17px;
 }
@@ -309,9 +318,11 @@
     font-size: 18px;
     transition: transform 0.3s;
     position: absolute;
-    left: 260px;
+    left: 240px;
     overflow: hidden;
 }
+
+
 
 .admin-sidebarMenu-inner {
     max-height: 0;
@@ -320,14 +331,20 @@
     text-align: start;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out, padding 0.3s ease-out;
+    
 }
 
 .admin-sidebarMenu-inner.open {
     max-height: 500px;
+    
 }
 
 .admin-sidebarMenu-list {
     height: 35px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin: 6px;
+    padding: 10px;
 }
 
 .inner-circle {
@@ -349,10 +366,15 @@
 .admin-sidebarMenu-innerData {
     font-weight: 100;
     padding-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+.admin-sidebarMenu-innerData:hover{
+    color: #000;
 }
 
-.admin-sidebarMenu-innerData:hover {
-    color: #0cd1d1;
+.admin-sidebarMenu-list:hover {
+    background: #ffff;
 }
 
 /* --------------Admin sidebar Section end--------------- */
@@ -545,7 +567,7 @@
 
 
 /* --------------Footer Section Start--------------- */
-.admin-footer {
+ /* .admin-footer {
     height: 50px;
     background: #ccc;
     width: 100%;
@@ -611,7 +633,7 @@
     padding-top: 10px;
     letter-spacing: 1px;
 
-}
+} */
 
 
 /* --------------Footer Section End--------------- */
@@ -695,6 +717,7 @@
 .aProfile-download-btn:hover {
     background-color: #cc0000;
 }
+
 /*----------aprofile section end---------------*/
 
 /*----------manageBranch css section start---------------*/
@@ -795,6 +818,7 @@
     font-weight: bold;
 
 }
+
 /*----------manageBranch css section end---------------*/
 /*----------manageBranchForm css section start---------------*/
 .admin-containerPanel-content {
@@ -900,6 +924,7 @@
     font-weight: 600;
 
 }
+
 /*----------manageBranchForm css section end---------------*/
 /* -----------managePayement css section start-------------*/
 .admin-containerPanel-content {
@@ -1038,6 +1063,7 @@
     word-spacing: 5px;
 
 }
+
 /* -----------managePayement css section start-------------*/
 /* -----------managePayementForm css section start---------*/
 .admin-containerPanel-content {
@@ -1259,6 +1285,7 @@
     text-decoration: none;
     color: #fff;
 }
+
 /* -----------manageUser css section end-----------*/
 /* -----------manageUserForm css section start---------*/
 .admin-containerPanel-content {
@@ -1362,6 +1389,7 @@
     text-align: center;
     padding-bottom: 20px;
 }
+
 /* -----------manageUserForm css section end-----------*/
 /* -----------siteSetting css section start-----------*/
 .admin-containerPanel-content {
@@ -1473,6 +1501,7 @@
         width: 100%;
     }
 }
+
 /* -----------siteSetting css section end-----------*/
 /* -----------suggestionbox css section start-----------*/
 .admin-containerPanel-content {
@@ -1570,6 +1599,7 @@
     justify-content: space-around;
 
 }
+
 /* -----------sugestionbox css section end-----------*/
 /* -----------permission css section start-----------*/
 .admin-containerPanel-content {
@@ -1639,6 +1669,7 @@
     width: 30px;
     height: 30px;
 }
+
 /* -----------permission css section end-----------*/
 /* -----------emploayee Department css section start-----------*/
 .admin-containerPanel-content {
@@ -1750,6 +1781,7 @@
     height: 35px;
     padding-top: 15px;
 }
+
 /* -----------emploayee Department css section end-----------*/
 /* -----------emploayee Departmentform css section start-------- */
 .admin-containerPanel-content {
@@ -1858,6 +1890,7 @@
         width: 100%;
     }
 }
+
 /* -----------emploayee Departmentform css section start-------- */
 /* -----------emploayee  css section start-----------*/
 .admin-containerPanel-content {
@@ -2000,6 +2033,7 @@
     align-items: center;
     height: 10px;
 }
+
 /* -----------emploayee  css section end-----------*/
 /* -----------Adendeneced Report css section start-----------*/
 .admin-containerPanel-content {
@@ -2306,6 +2340,7 @@
     transition: all ease-in-out 0.9s;
 
 }
+
 /* -----------Advanced Report css section end-----------*/
 /* -----------Advanced ReportForm css section start-----------*/
 .admin-containerPanel-content {
@@ -2407,6 +2442,7 @@
         width: 100%;
     }
 }
+
 /* -----------Advanced ReportForm css section end-----------*/
 /* -----------Generate sellary section start-----------*/
 .admin-containerPanel-content {
@@ -2520,6 +2556,7 @@
     background: #153450;
     color: #fff;
 }
+
 /* -----------Generate sellary css section end-----------*/
 /* -----------Student css section start-----------*/
 .admin-containerPanel-content {
@@ -2688,6 +2725,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------Student css section end-----------*/
 /* -----------Id Card css section start-----------*/
 .admin-containerPanel-content {
@@ -2863,6 +2901,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------Id Card css section end-----------*/
 /* -----------Admit Card css section start-----------*/
 .admin-containerPanel-content {
@@ -3037,6 +3076,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------Admit Card section end-----------*/
 /* -----------Admit Card form section start-----------*/
 .admin-containerPanel-content {
@@ -3145,6 +3185,7 @@
         width: 100%;
     }
 }
+
 /* -----------Admit Card form section end-----------*/
 
 /* -----------Program section start-----------*/
@@ -3245,6 +3286,7 @@
     border: 1px solid #ccc;
     color: #fff;
 }
+
 /* -----------Program section end-----------*/
 
 /* -----------ProgramForm section start-----------*/
@@ -3353,6 +3395,7 @@
         width: 100%;
     }
 }
+
 /* -----------ProgramForm section end-----------*/
 
 /* -----------Courses section start-----------*/
@@ -3475,6 +3518,7 @@
     word-spacing: 5px;
     font-size: 20px;
 }
+
 /* -----------Courses section end-----------*/
 
 /* -----------CoursesForm section start-----------*/
@@ -3584,6 +3628,7 @@
         width: 100%;
     }
 }
+
 /* -----------CoursesForm section end-----------*/
 
 /* -----------Subject section start-----------*/
@@ -3714,6 +3759,7 @@
     word-spacing: 5px;
     font-size: 20px;
 }
+
 /* -----------Subject section end-----------*/
 
 /* -----------SubjectForm section start-----------*/
@@ -3824,6 +3870,7 @@
         width: 100%;
     }
 }
+
 /* -----------SubjectForm section end-----------*/
 
 /* -----------Batch section start-----------*/
@@ -3922,6 +3969,7 @@
     border: 1px solid #ccc;
     color: #fff;
 }
+
 /* -----------Batch section end-----------*/
 
 
@@ -4032,6 +4080,7 @@
         width: 100%;
     }
 }
+
 /* -----------BatchForm section end-----------*/
 
 /* -----------studyMaterials section start-----------*/
@@ -4180,6 +4229,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------studyMaterials section end-----------*/
 
 /* -----------studyMaterialsForm section start-----------*/
@@ -4534,6 +4584,7 @@
         width: 100%;
     }
 }
+
 /* -----------videoClassForm section end-----------*/
 
 
@@ -4958,6 +5009,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------yt live class section start-----------*/
 
 /* -----------yt live classForm section start-----------*/
@@ -5060,6 +5112,7 @@
         width: 100%;
     }
 }
+
 /* -----------yt live classForm section start-----------*/
 
 /* -----------zoom live class section start-----------*/
@@ -5220,6 +5273,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------zoom live class section start-----------*/
 
 /* -----------zoom live classForm section start-----------*/
@@ -5322,6 +5376,7 @@
         width: 100%;
     }
 }
+
 /* -----------zoom live classForm section start-----------*/
 
 
@@ -5467,6 +5522,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------Paper set section end-----------*/
 
 /* -----------Paper setForm section start-----------*/
@@ -5594,6 +5650,7 @@
         width: 100%;
     }
 }
+
 /* -----------Paper setForm section end-----------*/
 
 /* -----------Question section start-----------*/
@@ -5719,6 +5776,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------Question  section end-----------*/
 
 /* -----------Result section start-----------*/
@@ -5827,6 +5885,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------Result  section end-----------*/
 
 /* -----------Marksheet section start-----------*/
@@ -5998,6 +6057,7 @@
     transition: all ease-in 0.1s;
     border: 1px solid #389af0;
 }
+
 /* -----------Marksheet section end-----------*/
 
 /* -----------MarksheetForm section start-----------*/
@@ -6066,6 +6126,7 @@
     font-size: 17px;
     color: #fff;
 }
+
 /* -----------MarksheetForm section end-----------*/
 
 /* -----------Student Report section Start-----------*/
@@ -6228,6 +6289,7 @@
     padding: 7px 13px;
 
 }
+
 /* -----------Student Report section end-----------*/
 
 /* -----------Fee Report section Start-----------*/
@@ -6533,6 +6595,7 @@
     margin: 10px;
     color: rgb(99, 97, 97);
 }
+
 /* -----------DueFee Report section end-----------*/
 
 /* -----------BalanceSheet Report section Start-----------*/
@@ -6680,16 +6743,2218 @@
     border: 1px solid #ccc;
     color: #fff;
 }
+
 /* -----------BalanceSheet Report section end-----------*/
 
 /* -----------Income Head section start-----------*/
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+
+.admin-incomeHead-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+
+}
+
+.admin-incomeHead-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-incomeHead-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.admin-incomeHead-formGroup {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-incomeHead-formLabel {
+    font-size: 16px;
+    font-weight: normal;
+    color: #878484;
+}
+
+.admin-incomeHead-formInput {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.admin-incomeHead-formButton {
+    width: 10%;
+}
+
+.admin-incomeHead-formButtoninput {
+    width: 100%;
+    padding: 8px;
+    margin-top: 18px;
+    background: #008000;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-incomeHead-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+}
+
+.admin-incomeHead-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: -2px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-incomeHead-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-incomeHead-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-incomeHead-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #235e23;
+    color: #fff;
+}
+
+.admin-incomeHead-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 15px;
+    color: #000;
+}
+
+.admin-incomeHead-actionLink {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.admin-incomHead-tg-img {
+    width: 8%;
+    align-items: center;
+    height: 10px;
+}
+
 /* -----------Income Head section end-----------*/
 
-/* -----------Income Head section start-----------*/
-/* -----------Income Head section end-----------*/
+/* -----------Income HeadForm section start-----------*/
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
 
-/* -----------Income Head section start-----------*/
-/* -----------Income Head section end-----------*/
+.admin-incomeHeadform-container {
+    min-height: 100px;
+    width: 80%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
 
-/* -----------Income Head section start-----------*/
-/* -----------Income Head section end-----------*/
+.admin-incomeHeadform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.admin-incomeHeadform-table {
+    width: 100%;
+    min-height: 100px;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.admin-incomeHeadform-tableRow {
+    border: 1px solid #ccc;
+    width: 98%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.admin-incomeHeadform-tableLabel {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: start;
+    padding-left: 12%;
+    color: rgb(91, 91, 91);
+
+}
+
+.admin-incomeHeadform-tableData {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.admin-incomeHeadform-input {
+    padding: 8px 10px;
+    width: 70%;
+    outline: none;
+}
+
+.admin-incomeHeadform-form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-incomeHeadform-submitButton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+
+}
+
+@media (max-width: 450px) {
+    .admin-incomeHeadform-text {
+        font-size: 15px;
+    }
+
+    .admin-incomeHeadform-tableRow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-incomeHeadform-tableLabel {
+        width: 100%;
+    }
+
+    .admin-incomeHeadform-tableData {
+        width: 100%;
+    }
+
+    .admin-incomeHeadform-input {
+        width: 100%;
+    }
+}
+
+/* -----------Income HeadForm section end-----------*/
+
+/* -----------Income Report section start-----------*/
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+
+.admin-incomeReport-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+
+}
+
+.admin-incomeReport-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-incomeReport-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.admin-incomeReport-formGroup {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-incomeReport-formLabel {
+    font-size: 16px;
+    font-weight: normal;
+    color: #878484;
+}
+
+.admin-incomeReport-formInput {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.admin-incomeReport-formButton {
+    width: 10%;
+}
+
+.admin-incomeReport-formButtoninput {
+    width: 100%;
+    padding: 8px;
+    margin-top: 18px;
+    background: #008000;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-incomeReport-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+}
+
+.admin-incomeReport-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: -2px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-incomeReport-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-incomeReport-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-incomeReport-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #153450;
+    color: #fff;
+    font-weight: normal;
+}
+
+.admin-incomeReport-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 15px;
+    color: #000;
+}
+
+.admin-incomeReport-containImg {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.admin-incomeReport-img {
+    height: 60px;
+    padding-left: 20px;
+}
+
+.admin-incomeReport-tdText {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-incomeReport-actionLink {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    word-spacing: 5px;
+}
+
+.admin-incomeReport-buttonIcon {
+    padding: 3px 10px;
+    background: #153450;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+/* -----------Income Report section end-----------*/
+
+/* -----------Income ReportForm section start-----------*/
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-incomeReportform-container {
+    min-height: 350px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.admin-incomeReportform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.admin-incomeReportform-table {
+    width: 100%;
+    min-height: 300px;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.admin-incomeReportform-tableRow {
+    border: 1px solid #ccc;
+    width: 98%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.admin-incomeReportform-tableLabel {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: start;
+    padding-left: 12%;
+}
+
+.admin-incomeReportform-tableData {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.admin-incomeReportform-input {
+    padding: 8px 10px;
+    width: 70%;
+    outline: none;
+}
+
+.admin-incomeReportform-form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-incomeReportform-submitButton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+@media (max-width: 450px) {
+    .admin-incomeReportform-text {
+        font-size: 15px;
+    }
+
+    .admin-incomeReportform-tableRow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-incomeReportform-tableLabel {
+        width: 100%;
+    }
+
+    .admin-incomeReportform-tableData {
+        width: 100%;
+    }
+
+    .admin-incomeReportform-input {
+        width: 100%;
+    }
+}
+
+/* -----------Income ReporForm section end-----------*/
+
+/*----------Manage Head Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-manageHead-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+
+}
+
+.admin-manageHead-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-manageHead-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.admin-manageHead-formGroup {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-manageHead-formLabel {
+    font-size: 16px;
+    font-weight: normal;
+    color: #878484;
+}
+
+.admin-manageHead-formInput {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.admin-manageHead-formButton {
+    width: 10%;
+}
+
+.admin-manageHead-formButtoninput {
+    width: 100%;
+    padding: 8px;
+    margin-top: 18px;
+    background: #008000;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-manageHead-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+}
+
+.admin-manageHead-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: -2px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-manageHead-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-manageHead-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-manageHead-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #235e23;
+    color: #fff;
+}
+
+.admin-manageHead-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 15px;
+    color: #000;
+}
+
+.admin-manageHead-actionLink {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.admin-manageHead-tg-img {
+    width: 8%;
+    align-items: center;
+    height: 10px;
+}
+
+/*----------Manage Head Section End------------------ */
+/*----------Manage HeadForm Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-manageHeadform-container {
+    min-height: 100px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.admin-manageHeadform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.admin-manageHeadform-table {
+    width: 100%;
+    min-height: 100px;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.admin-manageHeadform-tableRow {
+    border: 1px solid #ccc;
+    width: 98%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.admin-manageHeadform-tableLabel {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: start;
+    padding-left: 12%;
+    color: rgb(91, 91, 91);
+
+}
+
+.admin-manageHeadform-tableData {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.admin-manageHeadform-input {
+    padding: 8px 10px;
+    width: 70%;
+    outline: none;
+}
+
+.admin-manageHeadform-form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-manageHeadform-submitButton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+
+}
+
+@media (max-width: 450px) {
+    .admin-manageHeadform-text {
+        font-size: 15px;
+    }
+
+    .admin-manageHeadform-tableRow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-manageHeadform-tableLabel {
+        width: 100%;
+    }
+
+    .admin-manageHeadform-tableData {
+        width: 100%;
+    }
+
+    .admin-manageHeadform-input {
+        width: 100%;
+    }
+}
+
+/*----------Manage HeadForm Section End------------------ */
+/*----------Expenses Report Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.admin-expensesReport-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+
+}
+
+.admin-expensesReport-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-expensesReport-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.admin-expensesReport-formGroup {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-expensesReport-formLabel {
+    font-size: 16px;
+    font-weight: normal;
+    color: #878484;
+}
+
+.admin-expensesReport-formInput {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+.admin-expensesReport-formButton {
+    width: 10%;
+}
+
+.admin-expensesReport-formButtoninput {
+    width: 100%;
+    padding: 8px;
+    margin-top: 18px;
+    background: #008000;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-expensesReport-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+}
+
+.admin-expensesReport-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: -2px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-expensesReport-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-expensesReport-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-expensesReport-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #088000;
+    color: #fff;
+    font-weight: normal;
+}
+
+.admin-expensesReport-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 8px;
+    color: #000;
+}
+
+.admin-studentReport-buttonIcon {
+    padding: 3px 10px;
+    background: #153450;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+
+.admin-expensesReport-tdText {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-expensesReport-actionLink {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #000;
+    word-spacing: 5px;
+}
+
+.admin-expensesReport-buttonIcon {
+    padding: 3px 10px;
+    background: #153450;
+    border: 1px solid #ccc;
+    color: #fff;
+}
+
+/*----------Expenses Report Section End------------------ */
+/*----------Expenses ReportForm Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.admin-expensesReportform-container {
+    min-height: 350px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 50px auto;
+}
+
+.admin-expensesReportform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-expensesReportform-table {
+    width: 100%;
+    min-height: 300px;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.admin-expensesReportform-tableRow {
+    border: 1px solid #ccc;
+    width: 98%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.admin-expensesReportform-tableLabel {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: start;
+    padding-left: 12%;
+}
+
+.admin-expensesReportform-tableData {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.admin-expensesReportform-input {
+    padding: 8px 10px;
+    width: 70%;
+    outline: none;
+}
+
+.admin-expensesReportform-form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-expensesReportform-submitButton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+}
+
+@media (max-width: 450px) {
+    .admin-expensesReportform-text {
+        font-size: 15px;
+    }
+
+    .admin-expensesReportform-tableRow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-expensesReportform-tableLabel {
+        width: 100%;
+    }
+
+    .admin-expensesReportform-tableData {
+        width: 100%;
+    }
+
+    .admin-expensesReportform-input {
+        width: 100%;
+    }
+}
+
+/*----------Expenses ReportForm Section End------------------ */
+
+
+/*----------Manage Page Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+
+.admin-managePage-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+
+}
+
+.admin-managePage-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-managePage-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-managePage-formGroup {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.admin-managePage-formLabel {
+    font-size: 16px;
+    font-weight: normal;
+    color: #878484;
+}
+
+.admin-managePage-formInput {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-managePage-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+    margin-top: -60px;
+}
+
+.admin-managePage-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: -2px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-managePage-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-managePage-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-managePage-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #235e23;
+    color: #fff;
+}
+
+.admin-managePage-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 15px;
+    color: #000;
+}
+
+.admin-managePage-img {
+    width: 20%;
+    height: 40px;
+
+}
+
+.admin-managePage-actionLink {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.admin-managePage-tg-img {
+    width: 8%;
+    align-items: center;
+    height: 10px;
+}
+
+/*----------Manage Page  Section End------------------ */
+
+/*----------Manage PageForm Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-managePageform-container {
+    min-height: 350px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    border-radius: 4px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.admin-managePageform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.admin-managePageform-Table {
+    width: 90%;
+    min-height: 300px;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.admin-managePageform-Tablerow {
+    border: 1px solid #ccc;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-managePageform-Tablelebal {
+    font-size: 18px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: center;
+
+}
+
+.admin-managePageform-Tabledata {
+    font-size: 18px;
+    padding: 5px;
+    width: 50%;
+}
+
+.admin-managePageform-Input {
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.admin-managePageform-Form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.admin-managePageform-Upadtebutton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+
+    .admin-managePageform--text {
+        font-size: 15px;
+    }
+
+    .admin-managePageform-Tablerow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-managePageform-Tablelebal {
+        width: 100%;
+    }
+
+    .admin-managePageform-Tabledata {
+        width: 100%;
+    }
+
+    .admin-managePageform-Input {
+        width: 100%;
+    }
+}
+
+/*----------Manage PageForm  Section End------------------ */
+
+/*----------Manage Banner Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-manageBanner-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+
+}
+
+.admin-manageBanner-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-manageBanner-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-manageBanner-formGroup {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.admin-manageBanner-formLabel {
+    font-size: 16px;
+    font-weight: normal;
+    color: #878484;
+}
+
+.admin-manageBanner-formInput {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-manageBanner-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.admin-manageBanner-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: -2px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-manageBanner-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-manageBanner-tableOuter {
+    width: 68%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-manageBanner-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 8px;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.admin-manageBanner-img {
+    width: 60%;
+    height: 300px;
+
+
+}
+
+.admin-manageBanner-actionLink {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+/*----------Manage Banner  Section End------------------ */
+
+/*----------Manage Banner Form Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-manBannerform-container {
+    min-height: 350px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    border-radius: 4px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.admin-manBannerform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.admin-manBannerform-Table {
+    width: 90%;
+    min-height: 300px;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.admin-manBannerform-Tablerow {
+    border: 1px solid #ccc;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.admin-manBannerform-Tablelebal {
+    font-size: 18px;
+    padding-top: 10px;
+    width: 10%;
+
+}
+
+.admin-manBannerform-Tabledata {
+    font-size: 18px;
+    padding: 5px;
+    width: 80%;
+}
+
+.admin-manBannerform-Input {
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.admin-manBannerform-Form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.admin-manBannerform-Upadtebutton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+
+    .admin-manBannerform--text {
+        font-size: 15px;
+    }
+
+    .admin-manBannerform-Tablerow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-manBannerform-Tablelebal {
+        width: 100%;
+    }
+
+    .admin-manBannerform-Tabledata {
+        width: 100%;
+    }
+
+    .admin-manBannerform-Input {
+        width: 100%;
+    }
+}
+
+/*----------Manage Banner Form  Section End------------------ */
+
+/*----------Manage Photo Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.admin-managePhoto-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+
+}
+
+.admin-managePhoto-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-managePhoto-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-managePhoto-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+.admin-managePhoto-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-managePhoto-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-managePhoto-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-managePhoto-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #235e23;
+    color: #fff;
+}
+
+.admin-managePhoto-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 15px;
+    color: #000;
+}
+
+
+.admin-managePhoto-buttonInner {
+    width: 40%;
+    padding: 5px 6px;
+    background: #0eb00e;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.admin-managePhoto-buttonInner:hover {
+    background: #fff;
+    color: #0eb00e;
+    border: 2px solid #0eb00e;
+    cursor: pointer;
+}
+
+.admin-managePhoto-actionLink {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.admin-managePhoto-tg-img {
+    width: 8%;
+    align-items: center;
+    height: 10px;
+}
+
+/*----------Manage Photo  Section End------------------ */
+
+/*----------Manage Photo Form Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-manPhotoform-container {
+    min-height: 150px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.admin-manPhotoform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-manPhotoform-table {
+    width: 100%;
+    min-height: 100px;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.admin-manPhotoform-tableRow {
+    border: 1px solid #ccc;
+    width: 98%;
+    min-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.admin-manPhotoform-tableLabel {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: start;
+    padding-left: 10%;
+}
+
+.admin-manPhotoform-tableData {
+    font-size: 18px;
+    padding: 5px;
+    width: 60%;
+}
+
+.admin-manPhotoform-input {
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.admin-manPhotoform-form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-manPhotoform-submitButton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+}
+
+.admin-manPhotoform-submitButton:hover {
+    outline: 2px solid #33b249;
+    background: #fff;
+    color: #33b249;
+    cursor: pointer;
+}
+
+/*----------Manage Photo Form Section End------------------ */
+
+/*----------Manage Video Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.admin-manageVideo-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 50px auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+
+}
+
+.admin-manageVideo-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-manageVideo-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-manageVideo-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+    margin-top: 60px;
+}
+
+.admin-manageVideo-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-manageVideo-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-manageVideo-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-manageVideo-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #235e23;
+    color: #fff;
+}
+
+.admin-manageVideo-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 15px;
+    color: #000;
+}
+
+
+.admin-manageVideo-buttonInner {
+    width: 60%;
+    padding: 7px 10px;
+    background: #0eb00e;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.admin-manageVideo-buttonInner:hover {
+    background: #fff;
+    color: #0eb00e;
+    border: 2px solid #0eb00e;
+    cursor: pointer;
+}
+
+.admin-manageVideo-actionLink {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.admin-manageVideo-tg-img {
+    width: 8%;
+    align-items: center;
+    height: 10px;
+}
+
+/*----------Manage Video Section End------------------ */
+
+
+/*----------Manage Video Form Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+
+.admin-manVideoform-container {
+    min-height: 150px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.admin-manVideoform-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.admin-manVideoform-table {
+    width: 100%;
+    min-height: 100px;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+
+.admin-manVideoform-tableRow {
+    border: 1px solid #ccc;
+    width: 98%;
+    min-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+.admin-manVideoform-tableLabel {
+    font-size: 20px;
+    padding-top: 10px;
+    width: 30%;
+    text-align: start;
+    padding-left: 10%;
+}
+
+.admin-manVideoform-tableData {
+    font-size: 18px;
+    padding: 5px;
+    width: 60%;
+}
+
+.admin-manVideoform-input {
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.admin-manVideoform-form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+}
+
+.admin-manVideoform-submitButton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+}
+
+.admin-manVideoform-submitButton:hover {
+    outline: 2px solid #33b249;
+    background: #fff;
+    color: #33b249;
+    cursor: pointer;
+}
+
+@media (max-width: 450px) {
+    .admin-manVideoform-text {
+        font-size: 15px;
+    }
+
+    .admin-manVideoform-tableRow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-manVideoform-tableLabel {
+        width: 100%;
+    }
+
+    .admin-manVideoform-tableData {
+        width: 100%;
+    }
+
+    .admin-manVideoform-input {
+        width: 100%;
+    }
+}
+
+/*----------Manage Video Form  Section End------------------ */
+
+/*----------Notice Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-notice-container {
+    min-height: 300px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+
+}
+
+.admin-notice-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------Department fillter form---------- */
+.admin-notice-form {
+    min-height: 50px;
+    width: 98%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-notice-formGroup {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.admin-notice-formLabel {
+    font-size: 16px;
+    font-weight: normal;
+    color: #878484;
+}
+
+.admin-notice-formInput {
+    padding: 8px 10px;
+    width: 100%;
+}
+
+/* ----------------Department fillter form end---------- */
+
+
+.admin-notice-button {
+    width: 100%;
+    min-height: 50px;
+    padding: 15px;
+}
+
+.admin-notice-bLink {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    word-spacing: -2px;
+    padding: 6px;
+    color: #fff;
+    background: #389af0;
+    border: none;
+    float: right;
+}
+
+.admin-notice-bLink:hover {
+    outline: 2px solid #389af0;
+    background: #fff;
+    color: #389af0;
+    transition: all ease-in-out 0.3s;
+}
+
+.admin-notice-tableOuter {
+    width: 98%;
+    padding: 20px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.admin-notice-tableHead {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 10px;
+    background: #235e23;
+    color: #fff;
+}
+
+.admin-notice-tableData {
+    border: 1px solid rgb(83, 82, 82);
+    padding: 15px;
+    color: #000;
+}
+
+.admin-notice-innerData {
+    color: red;
+    text-decoration: none;
+}
+
+.admin-notice-actionLink {
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.admin-notice-tg-img {
+    width: 8%;
+    align-items: center;
+    height: 10px;
+}
+
+/*----------Notice Section End------------------ */
+
+/*----------Notice Section Start------------------ */
+.admin-containerPanel-content {
+    min-height: 250px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.admin-noticeForm-container {
+    min-height: 350px;
+    width: 100%;
+    background: #f5f0ed;
+    margin: 0px auto;
+    border-radius: 4px;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.admin-noticeForm-text {
+    font-size: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.admin-noticeForm-Table {
+    width: 90%;
+    min-height: 300px;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+.admin-noticeForm-Tablerow {
+    border: 1px solid #ccc;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.admin-noticeForm-Tablelebal {
+    font-size: 18px;
+    padding-top: 10px;
+    width: 10%;
+
+}
+
+.admin-noticeForm-Tabledata {
+    font-size: 18px;
+    padding: 5px;
+    width: 80%;
+}
+
+.admin-noticeForm-Input {
+    padding: 8px 10px;
+    width: 100%;
+    outline: none;
+}
+
+.admin-noticeForm-Form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.admin-noticeForm-Upadtebutton {
+    padding: 8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    background: #33b249;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:450px) {
+
+    .admin-noticeForm--text {
+        font-size: 15px;
+    }
+
+    .admin-noticeForm-Tablerow {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .admin-noticeForm-Tablelebal {
+        width: 100%;
+    }
+
+    .admin-noticeForm-Tabledata {
+        width: 100%;
+    }
+
+    .admin-noticeForm-Input {
+        width: 100%;
+    }
+}
+
+/*----------Notice Section End------------------ */
+
+
+/*--------------Footer Section Start--------------- */
+ .admin-footer {
+    height: 50px;
+    background: #ccc;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+}
+
+.admin-footerLeft {
+    height: 100%;
+    width: 20%;
+    background: #73f4f4;
+    position: fixed;
+    top: 93%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.asidebar-footer-icon {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.asidebar-footer-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.admin-footerRight {
+    height: 100%;
+    width: 80%;
+    background: #f2f2f2;
+    position: sticky;
+    left: 20%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.admin-footerRight-textRight {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+}
+
+.admin-footerRight-link {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 0.5px;
+}
+
+.admin-footerRight-textLeft {
+    padding-right: 10px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+
+} 
+
+
+/* --------------Footer Section End---------------*/

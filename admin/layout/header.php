@@ -9,38 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <link rel="stylesheet" href="css/adminStyle.css">
-
-
-    <link rel="stylesheet" href="css/expensesReport.css">
-    <link rel="stylesheet" href="css/expensesReportform.css">
-    <link rel="stylesheet" href="css/manageHead.css">
-    <link rel="stylesheet" href="css/manageHeadform.css">
-
-
-    <link rel="stylesheet" href="css/incomeHead.css">
-    <link rel="stylesheet" href="css/incomeHeadform.css">
-    <link rel="stylesheet" href="css/incomeReport.css">
-    <link rel="stylesheet" href="css/incomeReportform.css">
-
-
-    <link rel="stylesheet" href="css/manageBanner.css">
-    <link rel="stylesheet" href="css/manBannerform.css">
-    <link rel="stylesheet" href="css/managePage.css">
-    <link rel="stylesheet" href="css/managePageform.css">
-    <link rel="stylesheet" href="css/managePhoto.css">
-    <link rel="stylesheet" href="css/manageVideo.css">
-    <link rel="stylesheet" href="css/manPhotoform.css">
-    <link rel="stylesheet" href="css/manVideoform.css">
-    <link rel="stylesheet" href="css/notice.css">
-    <link rel="stylesheet" href="css/noticeForm.css">
-
-
- 
-
-
-
-
-
 </head>
 
 <body>
