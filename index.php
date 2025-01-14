@@ -11,8 +11,11 @@ include 'layout/header.php';
             <h1>Excellent IT services for your success</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex laborum cupiditate incidunt, numquam asperiores nihil tenetur mollitia aut sint laudantium maiores praesentium? Odit facere inventore enim eveniet perspiciatis, nesciunt earum.</p>
             <div class="sub-btn"> <a href="" class="btn1">Discover More</a>
-                <a href="" class="btn2"><i class="fa fa-play" aria-hidden="true"></i></a></div>
-        </div>
+                <!-- <div class="outer-play-hero"> -->
+                    <a href="" class="btn2"><i class="fa fa-play" aria-hidden="true"></i></a>
+                <!-- </div> -->
+            </div>
+            </div>
     </div>
 
     <!-- hero section end -->
@@ -147,7 +150,6 @@ include 'layout/header.php';
                             <img src="images/5.jpg" />
                             <div class="inner-client-img">
                                 <i class="fa-solid fa-box"></i>
-
                             </div>
                         </div>
                         <div class="client-down-txt">

@@ -4,10 +4,10 @@ include 'layout/header.php';
  <!-- hero section start -->
  <div class="hero1">
         <div class="hero1-img">
-        </div>
         <div class="hero1-text">
             <h2>Get <span>Franchise Enquiry</span></h2>
             <p><a href="home.html" class="read-btn3">HOME  / others / franchise /</a> apply online</p>
+        </div>
         </div>
     </div>
     <!-- hero section end -->

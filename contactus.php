@@ -4,11 +4,10 @@ include 'layout/header.php';
     <!-- hero section start -->
     <div class="hero1">
         <div class="hero1-img">
-            <!-- <img src="images/4.jpg" alt=""> -->
-        </div>
         <div class="hero1-text">
             <h2><span>Contact Us</span> Page</h2>
             <p><a href="home.html" class="read-btn3"><span>HOME  / Contact / <span> </a> Contact Us</p>
+        </div>
         </div>
     </div>
     <!-- hero section end -->
@@ -39,7 +38,9 @@ include 'layout/header.php';
                 </div>
                 <input type="text" class="inp-contact1" placeholder="Enter Your Valid E-mail">
                 <textarea class="inp-contact2" placeholder="Enter Your Massage"></textarea>
+                <div class="contact-btn-control">
                 <a href="" class="read-btn4">Submit</a>
+                </div>
             </div>
         </div>
     </div>

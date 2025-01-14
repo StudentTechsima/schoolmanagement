@@ -4,11 +4,10 @@ include 'layout/header.php';
    <!-- hero section start -->
    <div class="hero1">
         <div class="hero1-img">
-            <!-- <img src="images/hero.jpg" alt=""> -->
-        </div>
         <div class="hero1-text">
         <h2><span>About </span>Me</h2>
             <p><a href="home.html" class="read-btn3"><span>HOME</span>  / about /  </a> about HNIS</p>
+        </div>
         </div>
     </div>
     <!-- hero section end -->
@@ -60,7 +59,9 @@ include 'layout/header.php';
                     <p class="para-box">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quibusdam natus velit aliquam recusandae debitis magni fugiat odio aut corrupti laborum qui ab,
                     </p>
-                    <a href="#">View more</a>
+                   <div class="sub-btn">
+                    <a href="#" class="btn1">Viewmore</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -37,7 +37,6 @@ date_default_timezone_set("Asia/kolkata");
             <a href="" class="forget-pas"><u>Forgot Password?</u></a>
             <div class="cancel">
                 <a href="" class="read-btn5">Login</a>
-                <a href="" class="read-btn5">Cancel</a>
             </div>
             <p>* Password Recover By The Institute </p>
         </form>
