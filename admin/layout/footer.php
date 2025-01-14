@@ -19,7 +19,7 @@
 </footer>
 </div>
 
-<script src="/adminzone/admin/admin.js"></script>
+<script src="js/admin.js"></script>
 
 
 
