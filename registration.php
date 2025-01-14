@@ -4,11 +4,10 @@ include 'layout/header.php';
 <!-- hero section start -->
 <div class="hero1">
     <div class="hero1-img">
-        <!-- <img src="images/hero.jpg" alt=""> -->
-    </div>
-    <div class="hero1-text">
-        <h2>Registration Now</h2>
-        <p><a href="home.html" class="read-btn3"><span>HOME</span></a> / Others / studentzone / registration</p>
+        <div class="hero1-text">
+            <h2><span>Registration</span> Now</h2>
+            <p><a href="home.html" class="read-btn3"><span>HOME</span></a> / Others / studentzone / registration</p>
+        </div>
     </div>
 </div>
 <!-- hero section end -->
@@ -59,11 +58,11 @@ include 'layout/header.php';
                     <select>
                         <option value="">-- BRANCH --</option>
                         <option value="1">
-                            HNIS-HYPERINFO NET IT SOLUTIONS PVT. LTD.<br>(House No B-28, Part of Plot No B-28 Gata No 12 Gudamba Nirmal Homes Lucknow Lucknow UP 226021 IN)</option>
+                            HNIS-HYPERINFO NET IT SOLUTIONS PVT. LTD.</option>
                         <option value="82">
-                            RSCTI-R.S. COMPUTER TRAINING INSTITUTE<br>(34 Sishaniya Tetari Bazar Shiddharthnagar Up-272207)</option>
+                            RSCTI-R.S. COMPUTER TRAINING INSTITUTE</option>
                         <option value="90">
-                            GCTI-Global Computer Training Institute<br>(Pillar No 101 1st Floor, Baba Market, Goyal Colony, Salarpur Khadar, Salarpur, Noida, Uttar Pradesh 201304)</option>
+                            GCTI-Global Computer Training Institute</option>
                     </select>
                 </div>
                 <div class="regi-box">

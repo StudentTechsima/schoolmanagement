@@ -122,6 +122,9 @@
         .account-empty label {
             padding-right: 3px;
         }
+        .account-empty {
+            gap: 15px;
+        }
         .what-we-are-inner {
             width: 95%;
         }
@@ -218,7 +221,8 @@
         }
         .outer-input,
         .inp-contact2,
-        .inp-contact1 {
+        .inp-contact1,
+        .contact-btn-control {
             width: 95%;
         }
         /* findbranch page start */

@@ -4,11 +4,10 @@ include 'layout/header.php';
     <!-- hero section start -->
     <div class="hero1">
         <div class="hero1-img">
-            <!-- <img src="images/4.jpg" alt=""> -->
-        </div>
         <div class="hero1-text">
             <h2>Find <span>Your Record</span></h2>
             <p><a href="home.html" class="read-btn3">HOME  / others / franchise /  </a> findrecord</p>
+        </div>
         </div>
     </div>
     <!-- hero section end -->

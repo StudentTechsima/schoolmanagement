@@ -3,10 +3,10 @@ include 'layout/header.php';
 ?>
 <div class="hero1">
         <div class="hero1-img">
-        </div>
         <div class="hero1-text">
-            <h2>Your account details</h2>
+            <h2>Your <span>account details</span></h2>
             <p><a href="home.php" class="read-btn3"><span>HOME</span>  / Others /  </a> accountdetail</p>
+        </div>
         </div>
     </div>
     <!-- hero section end -->

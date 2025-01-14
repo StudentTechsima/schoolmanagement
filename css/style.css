@@ -1,10 +1,12 @@
 :root {
     --primary: #FF2C57;
+    --secondary: #edf4ff;
     --alertcolor: #ff0000;
-    --secondary: #ADCBD7;
     --ternury: #6998AB;
     --fourth: #406882;
     --fifth: #1b374d;
+    --shadow-black: 0 5px 15px rgba(6, 6, 6, 0.5);
+    --shadow-black300: 0 5px 15px rgba(0, 0, 0, .3);
     --sixth: linear-gradient(#ADCBD7, #6998AB);
     --services: linear-gradient(#406882, #ADCBD7);
 }
@@ -77,10 +79,8 @@ h3 {
     width: 40px;
     border-radius: 8px;
     padding-left: 2px;
-    /* border: 2px solid var(--primary); */
     border: 2px solid var(--primary);
     color: var(--primary);
-    /* color: var(--primary); */
     font-size: 18px;
     font-weight: 600;
     transition: all ease .5s;
@@ -122,7 +122,7 @@ header {
 }
 
 .up-header-icon a {
-    color: #edf4ff;
+    color: var(--secondary);
 }
 
 .up-header-text a {
@@ -130,7 +130,13 @@ header {
     padding: 5px 5px;
     width: initial;
     background-color: var(--primary);
-    color: #edf4ff;
+    color: var(--secondary);
+    transition: all ease .5s;
+}
+
+.up-header-text a:hover {
+    background-color: var(--secondary);
+    color: #000000;
 }
 
 .navbar {
@@ -138,7 +144,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     box-shadow: 0px 0px 0px 2px #000;
     padding: 0px 108px;
 }
@@ -192,7 +198,7 @@ header {
 .inner-navbar {
     width: 200px;
     border-top: 4px solid var(--primary);
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     position: absolute;
     top: 116px;
     left: 0%;
@@ -203,8 +209,8 @@ header {
 
 .inner-navbar1 {
     width: 200px;
-    border-top: 4px solid #000;
-    background-color: #edf4ff;
+    border-top: 4px solid var(--primary);
+    background-color: var(--secondary);
     position: absolute;
     top: 116px;
     right: 0%;
@@ -219,10 +225,8 @@ header {
 
 .inner-inner-navbar {
     width: 200px;
-    /* border-top: 4px solid var(--primary);
-    background: var(--fourth); */
-    border-top: 4px solid #000;
-    background-color: #edf4ff;
+    border-top: 4px solid var(--primary);
+    background-color: var(--secondary);
     position: absolute;
     top: 50%;
     right: 101%;
@@ -248,7 +252,7 @@ header {
 .inner-navbar a:hover {
     padding-left: 10px;
     background-color: var(--primary);
-    color: #edf4ff;
+    color: var(--secondary);
 }
 
 .inner-navbar1 a:hover {
@@ -272,8 +276,7 @@ header {
 .hero-img {
     height: 550px;
     width: 100%;
-    /* background: var(--sixth); */
-    background: linear-gradient(45deg, black 58%, transparent 0%, black -14%);
+    background: var(--ternury);
     position: absolute;
     z-index: 1;
 }
@@ -306,18 +309,28 @@ header {
 
 .btn1 {
     padding: 8px 30px;
-    background-color: var(--secondary);
+    background-color: var(--primary);
+    color: #fff;
     border-radius: 8px;
     font-size: 20px;
     position: absolute;
     top: 25px;
+    box-shadow: var(--shadow-black300);
     transition: ease-in-out 0.5s;
 }
 
+.btn1:hover {
+    background-color: #000;
+}
+
 .btn2 {
-    /* padding: 14px 25px; */
-    padding: 11px 22px;
-    background-color: var(--secondary);
+    height: 60px;
+    width: 60px;
+    background-color: var(--primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     font-size: 23px;
     position: absolute;
@@ -326,15 +339,52 @@ header {
     transition: ease-in-out 0.5s;
 }
 
-.btn1:hover {
-    background-color: #000;
-    color: #fff;
+
+/* .outer-play-hero {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    box-shadow: 0px 0px 1px 0px var(--primary);
+    animation: playicon 5s alternate infinite;
 }
 
+@keyframes playicon {
+    0% {
+        height: 60px;
+        width: 60px;
+        box-shadow: 0px 0px 1px 0px var(--primary);
+    }
+    20% {
+        height: 65px;
+        width: 65px;
+        box-shadow: 0px 0px 5px 0px var(--primary);
+    }
+    40% {
+        height: 70px;
+        width: 70px;
+        box-shadow: 0px 0px 10px 0px var(--primary);
+    }
+    60% {
+        height: 80px;
+        width: 80px;
+        box-shadow: 0px 0px 10px 0px var(--primary);
+    }
+    80% {
+        height: 65px;
+        width: 65px;
+        box-shadow: 0px 0px 5px 0px var(--primary);
+    }
+    100% {
+        height: 60px;
+        width: 60px;
+        box-shadow: 0px 0px 1px 0px var(--primary);
+    }
+} */
+
 .btn2:hover {
-    padding: 15px 26px;
     background-color: #000;
-    color: #fff;
+    font-size: 25px;
 }
 
 
@@ -345,12 +395,6 @@ header {
 
 .hero1 {
     min-height: 300px;
-    display: flex;
-    justify-content: start;
-}
-
-.hero1-img {
-    height: 300px;
     width: 100%;
     background: url(../images/hero3.jpg);
     background-blend-mode: multiply;
@@ -358,19 +402,24 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero1-img {
+    width: 85%;
+    display: flex;
+    justify-content: start;
 }
 
 .hero1-text {
     height: 100%;
-    width: 35%;
+    width: 100%;
     color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 30px;
-    position: absolute;
-    left: 7.5%;
-    top: 30%;
-    z-index: 3;
 }
 
 .hero1-text span {
@@ -441,7 +490,7 @@ header {
     height: 600px;
     position: absolute;
     color: transparent;
-    -webkit-text-stroke: 1px var(--fifth);
+    -webkit-text-stroke: 1px #101010;
     font-size: 60px;
     font-family: inter;
     font-weight: bolder;
@@ -568,7 +617,6 @@ header {
 .client-down-img {
     height: 250px;
     width: 99%;
-    background-color: var(--secondary);
     position: relative;
     border-radius: 8px;
     background-color: #000000;
@@ -587,7 +635,7 @@ header {
     width: 85px;
     border-radius: 50%;
     outline: 3px solid #ffffff;
-    background-color: var(--ternury);
+    background-color: var(--primary);
     position: absolute;
     bottom: -16%;
     left: 40%;
@@ -629,9 +677,7 @@ header {
     min-height: 300px;
     display: flex;
     justify-content: center;
-    background: var(--services);
-    /* background-color: #000000; */
-    /* background-color: var(--primary); */
+    background-color: #000000;
     padding: 90px 0px;
 }
 
@@ -654,8 +700,7 @@ header {
 .service-box {
     min-height: 350px;
     width: 32%;
-    /* width: 29%; */
-    background-color: #ffffff;
+    background-color: var(--secondary);
     color: #000;
     position: relative;
     border-radius: 8px;
@@ -676,6 +721,10 @@ header {
     z-index: 1;
 }
 
+.service-box:hover h3 {
+    color: #000000;
+}
+
 .service-box p {
     position: absolute;
     top: 36%;
@@ -688,13 +737,13 @@ header {
     bottom: 20px;
     right: 50px;
     z-index: 1;
-    transition: all ease 3s;
+    transition: all ease 1s;
 }
 
 .service-icon {
     height: 100px;
     width: 100px;
-    background-color: var(--ternury);
+    background-color: var(--primary);
     border-radius: 50%;
     position: absolute;
     top: -15%;
@@ -706,15 +755,14 @@ header {
 
 .service-icon i {
     font-size: 40px;
-    color: #ffffff;
+    color: var(--secondary);
 }
 
 .service-hov {
     width: 100%;
     position: absolute;
     border-radius: 8px;
-    background-color: #000000;
-    /* background-color: var(--primary); */
+    background-color: var(--primary);
     transform: scaleY(0);
     transition: transform 1s ease;
 }
@@ -725,12 +773,13 @@ header {
 }
 
 .service-box:hover .service-icon {
-    background-color: #000000;
+    background-color: var(--secondary);
     box-shadow: 0px 0px 4px 0px silver;
 }
 
 .service-box:hover .service-icon i {
     transform: rotateZ(360deg);
+    color: #000000;
     transition: all 1.5s ease;
 }
 
@@ -783,7 +832,7 @@ header {
     align-items: center;
     font-weight: bolder;
     font-size: 25px;
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     border-radius: 8px;
     transition: all ease 2s;
     box-shadow: 1px 1px 3px 1px gray;
@@ -803,7 +852,7 @@ header {
 }
 
 .footer-anchor a {
-    color: #edf4ff;
+    color: var(--secondary);
     font-size: 23px;
     text-shadow: 2px 2px 3px black;
 }
@@ -852,7 +901,6 @@ header {
     height: 400px;
     width: 100%;
     border-radius: 8px;
-    /* background-color: var(--fifth); */
     background-color: #000000;
     position: relative;
     overflow: hidden;
@@ -907,7 +955,6 @@ header {
     position: absolute;
     left: 0%;
     border-radius: 8px;
-    /* background-color: var(--fifth); */
     background-color: var(--primary);
     z-index: 8;
     animation: video 4s alternate infinite;
@@ -975,8 +1022,7 @@ header {
 .left-contact {
     min-height: 450px;
     width: 35%;
-    /* background-color: var(--secondary); */
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     border-radius: 8px 0px 0px 8px;
     position: relative;
 }
@@ -1020,7 +1066,7 @@ header {
     position: absolute;
     height: 0%;
     width: 100%;
-    /* background-color: #edf4ff; */
+    /* background-color: var(--secondary); */
     /* background: var(--primary); */
     border-radius: 50%;
     transition-delay: 0.5s;
@@ -1049,7 +1095,7 @@ header {
     position: absolute;
     height: 0%;
     width: 100%;
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     border-radius: 8px;
     transition-delay: 0.5s;
     transition: all ease .5s;
@@ -1062,7 +1108,7 @@ header {
 }
 
 .min-contact:hover .contact-text a i {
-    color: #edf4ff;
+    color: var(--secondary);
 }
 
 .contect-icon1 {
@@ -1082,7 +1128,7 @@ header {
     position: absolute;
     height: 0%;
     width: 100%;
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     border-radius: 8px;
     transition: all ease .8s;
 }
@@ -1109,7 +1155,8 @@ header {
     border-radius: 8px;
 }
 
-.inp-contact1 {
+.inp-contact1,
+.contact-btn-control {
     height: 50px;
     width: 85%;
     border-radius: 8px;
@@ -1143,6 +1190,13 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    color: #fff;
+    box-shadow: var(--shadow-black);
+    transition: ease-in-out 0.5s;
+}
+
+.read-btn4:hover {
+    background-color: #000;
     color: #fff;
 }
 
@@ -1239,7 +1293,7 @@ header {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     position: absolute;
     padding: 4px 11px;
     font-size: 18px;
@@ -1252,7 +1306,7 @@ header {
 .inner-top-img {
     height: 151px;
     width: 100%;
-    background: linear-gradient(45deg, #edf4ff -19%, black 77%);
+    background: linear-gradient(45deg, var(--secondary) -19%, black 77%);
     transform: rotateZ(35deg);
     position: absolute;
     z-index: 2;
@@ -1286,7 +1340,7 @@ header {
 .inner-left-img {
     height: 100%;
     width: 120px;
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     transform: rotateZ(35deg);
     position: absolute;
     z-index: 2;
@@ -1303,7 +1357,7 @@ header {
 .inner-right-img {
     height: 100%;
     width: 120px;
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     transform: rotateZ(34deg);
     position: absolute;
     z-index: 2;
@@ -1363,7 +1417,7 @@ header {
 .inner-video {
     height: 100%;
     width: 100%;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     opacity: .2;
     position: absolute;
     bottom: 40%;
@@ -1402,7 +1456,7 @@ header {
 .student-log-left {
     min-height: 250px;
     width: 50%;
-    color: #edf4ff;
+    color: var(--secondary);
     text-transform: uppercase;
     font-family: cursive;
 }
@@ -1417,7 +1471,7 @@ header {
 .std-login-circle {
     height: 110px;
     width: 110px;
-    border: 2px solid #edf4ff;
+    border: 2px solid var(--secondary);
     border-radius: 50%;
     text-align: center;
 }
@@ -1438,7 +1492,7 @@ header {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px 0px gray;
-    background-color: #edf4ff;
+    background-color: var(--secondary);
     align-items: center;
     gap: 18px;
     padding: 30px 0px;
@@ -1446,12 +1500,7 @@ header {
 }
 
 .inp-log {
-    height: 50px;
     width: 80%;
-    border-radius: 8px;
-    background-color: silver;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 0px 4px silver;
 }
 
 .forget-pas {
@@ -1462,7 +1511,7 @@ header {
 .cancel {
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .read-btn5 {
@@ -1476,6 +1525,33 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    color: #fff;
+    box-shadow: var(--shadow-black);
+    transition: ease-in-out 0.5s;
+}
+
+.read-btn5:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cancel .read-btn5 {
+    height: 40px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--primary);
+    border-width: 0px;
+    display: flex;
+    letter-spacing: 1.1px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    transition: ease-in-out 0.5s;
+}
+
+.cancel .read-btn5:hover {
+    background-color: #000;
     color: #fff;
 }
 
@@ -1671,7 +1747,7 @@ legend {
 }
 
 .record-circle img {
-    height: 135%;
+    height: 100%;
     width: 100%;
     transition: all ease .6s;
 }
@@ -2096,35 +2172,6 @@ legend {
     color: var(--ternury);
 }
 
-.last a {
-    padding: 5px 15px;
-    font-size: 16px;
-    border: none;
-    margin-top: 10px;
-    transition: ease-in-out 0.5s;
-    border: 2px inset var(--ternury);
-    font-weight: bolder;
-    color: var(--ternury);
-    border-radius: 8px;
-    animation: button 2s infinite;
-}
-
-@keyframes button {
-    from {
-        border-top: 5px inset var(--alertcolor);
-    }
-    to {
-        border-top: 5px inset blueviolet;
-        /* transition: all ease 1s; */
-    }
-}
-
-.last a::before {
-    content: " ";
-    border: 2px double var(--alertcolor);
-    height: 10px;
-}
-
 
 /* about us end  */
 
@@ -2229,16 +2276,17 @@ legend {
     justify-content: center;
     align-items: center;
     border: none;
-    border-bottom: 10px solid var(--fourth);
+    border-bottom: 10px solid var(--primary);
 }
 
 .our-mission-section-box2 {
     border: none;
-    border-top: 10px solid var(--fourth);
+    border-top: 10px solid var(--primary);
 }
 
 .our-mission-section-box-content {
     min-height: 330px;
+    padding: 10px;
     width: 330px;
     border-radius: 50%;
     display: flex;
@@ -2349,7 +2397,7 @@ legend {
 }
 
 .account-empty {
-    width: 100%;
+    width: 50%;
     display: flex;
     gap: 50px;
 }
@@ -2357,7 +2405,6 @@ legend {
 .form-field-gender {
     width: 70%;
     display: flex;
-    padding: 4px 0px;
     gap: 8px;
 }
 
