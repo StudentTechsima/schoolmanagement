@@ -319,6 +319,7 @@
     transition: transform 0.3s;
     position: absolute;
     left: 240px;
+    top:10px;
     overflow: hidden;
 }
 
