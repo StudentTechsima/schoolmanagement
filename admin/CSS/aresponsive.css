@@ -1,0 +1,1704 @@
+@media (max-width: 2562) {
+    .admin-sidebar.collapsed {
+        width: 45px;
+    }
+
+    .admin-sidebar:hover {
+        width: 300px;
+    }
+
+    .admin-spann {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1442px) {
+    .admin-sidebar.collapsed {
+        width: 45px;
+    }
+
+    .admin-sidebar:hover {
+        width: 300px;
+    }
+
+    .admin-spann {
+        padding-left: 20px;
+    }
+
+    .admin-syllabus-formButton,
+    .admin-studyMaterials-formButton,
+    .admin-videoClass-formButton,
+    .admin-ytClass-formButton,
+    .admin-zoomClass-formButton {
+        width: 15%;
+    }
+
+    /* footer section start */
+    .admin-footerLeft {
+        width: 20%;
+        top: 94%;
+    }
+
+    .admin-footerRight {
+        width: 80%;
+        left: 19.5%;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .admin-footerRight-textRight {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .admin-footerRight-textLeft {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    /* footer section end */
+}
+
+@media (max-width: 1024px) {
+    .admin-sidebar.collapsed {
+        width: 45px;
+    }
+
+    .admin-sidebar:hover {
+        width: 300px;
+    }
+
+    /* dashboard card  start*/
+    .admin-containerPanel-contentCard {
+        width: 48%;
+    }
+
+    /* dashboard card end*/
+
+    /* profil;e section start */
+    .aProfile-header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aProfile-header,
+    .aProfile-breadcrumb {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* profile section end */
+
+    /* branch wallet start*/
+    .admin-containerPanel-content {
+        width: 90%;
+    }
+
+    .admin-branchWallet-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .admin-branchWallet-formGroup {
+        width: 100%;
+    }
+
+    .admin-branchWallet-button {
+        text-align: center;
+    }
+
+    .admin-branchWallet-bLink {
+        width: 40%;
+    }
+
+
+
+    /* Manage Branch Wallet End */
+    /*----- Manage Branch STart ---*/
+    .admin-containerPanel-content {
+        width: 90%;
+    }
+
+    .admin-manageBranch-button {
+        text-align: center;
+    }
+
+    .admin-manageBranch-bLink {
+        width: 40%;
+    }
+
+    /* -------Manage Branch End----- */
+
+    /* Manage Branch Form Start */
+    .admin-containerPanel-content {
+        width: 90%;
+    }
+
+    .admin-manageBranchform-formGroup {
+        min-width: 45%;
+        margin-top: 20px;
+    }
+
+    /* Manage Branch Form End */
+    /* manage User section satrt */
+    .admin-manageUser-innerLink {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .admin-manageUser-bLink {
+        width: 40%;
+        text-align: center;
+    }
+
+
+    .admin-employee-tableOuter,
+    .admin-attendanceRep-tableOuter,
+    .admin-admitCard-tableOuter {
+        width: 98%;
+    }
+
+
+    .admin-employee-tableHead,
+    .admin-attendanceRep-tableHead,
+    .admin-admitCard-tableHead {
+        padding: 0px;
+        font-size: 15px;
+    }
+
+
+    .admin-employee-tableData {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    /* manage User section end */
+    /* employe section start */
+    .admin-employee-tableHead .admin-employee-innerData .admin-employee-tg-button {
+        height: 10px;
+    }
+
+    /* employe section end */
+    /* advance report section start */
+    .admin-advanceReport-form {
+        width: 90%;
+    }
+
+    .admin-advanceReport-formButtoninput {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .admin-advanceReport-formButton {
+        width: 100%;
+    }
+
+    .admin-advanceReport-formButtoninput {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .admin-advanceReport-deductBtn {
+        width: 30%;
+        padding: 10px 20px;
+        text-align: center;
+
+    }
+
+    .admin-advanceReport-deductButton {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .admin-advanceReport-formInput {
+        width: 100%;
+    }
+
+    /* advance report section end */
+    /* student section start */
+    .admin-student-formButton {
+        width: 30%;
+    }
+
+
+
+    .admin-student-contain {
+        font-size: 10px;
+    }
+
+    .admin-student-innerLink {
+        gap: 3px;
+    }
+
+    .admin-student-buttonIcon {
+        font-size: 10px;
+    }
+
+    .admin-student-tg-button {
+        width: 30px;
+    }
+
+    /* student section end */
+    /* admit card section start */
+    .admin-admitCard-formGroup {
+        width: 40%;
+    }
+
+    .admin-admitCard-formButton {
+        width: 20%;
+        margin-top: 5%;
+    }
+
+    .admin-admitCard-tableData {
+        font-size: 13px;
+        padding: 3px;
+
+    }
+
+    /* Admit Card Section end */
+
+    /* course section start */
+    .admin-courses-form {
+        justify-content: space-around;
+    }
+
+    .admin-courses-formButton,
+    .admin-subject-formButton {
+        width: 65%;
+    }
+
+
+    .admin-courses-actionLink-btn {
+        width: 30px;
+    }
+
+    /* Course section end */
+    /* course section start */
+    .admin-subject-form,
+    .admin-syllabus-form,
+    .admin-studyMaterials-form,
+    .admin-videoClass-form,
+    .admin-ytClass-form,
+    .admin-zoomClass-form,
+    .admin-marksheet-form,
+    .admin-studentReport-form,
+    .admin-dueFeereport-form,
+    .admin-incomeReport-form,
+    .admin-balanceSheet-form,
+    .admin-paperQuestion-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .admin-syllabus-formGroup,
+    .admin-studyMaterials-formGroup,
+    .admin-videoClass-formGroup,
+    .admin-ytClass-formGroup,
+    .admin-zoomClass-formGroup,
+    .admin-marksheet-formGroup,
+    .admin-studentReport-formGroup,
+    .admin-dueFeereport-formGroup,
+    .admin-incomeReport-formGroup,
+    .admin-balanceSheet-formGroup,
+    .admin-paperQuestion-formGroup {
+        width: 100%;
+    }
+
+    .admin-subject-formButton,
+    .admin-syllabus-formButton,
+    .admin-studyMaterials-formButton,
+    .admin-videoClass-formButton,
+    .admin-ytClass-formButton,
+    .admin-zoomClass-formButton,
+    .admin-marksheet-formButton,
+    .admin-studentReport-formButton,
+    .admin-dueFeereport-formButton,
+    .admin-incomeReport-formButton,
+    .admin-balanceSheet-formButton {
+        width: 85%;
+    }
+
+
+
+    .admin-studentReport-formButton {
+        margin-left: 20px;
+    }
+
+    .admin-studentReport-containImg {
+        font-size: 10px;
+    }
+
+    .admin-studentReport-buttonIcon {
+        font-size: 8px;
+    }
+
+
+    .admin-batch-tableHead,
+    .admin-marksheet-tableHead {
+        padding: 2px;
+        font-size: 11px;
+        font-weight: 100;
+    }
+
+
+    .admin-paperResult-tableHead {
+        padding: 2px;
+        font-size: 7px;
+        font-weight: 100;
+    }
+
+    .admin-batch-tableData,
+    .admin-marksheet-tableData {
+        padding: 3px;
+        font-size: 9px;
+    }
+
+
+    .admin-syllabus-buttonIcon {
+        font-size: 11px;
+    }
+
+    .admin-subject-actionLink,
+    .admin-syllabus-actionLink {
+        font-size: 11px;
+    }
+
+    .admin-marksheet-actionLink {
+        font-size: 7px;
+    }
+
+    .admin-marksheet-pdf {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-marksheet-pdfLink {
+        font-size: 7px;
+    }
+
+    .admin-subject-actionLink-btn,
+    .admin-syllabus-tg-button,
+    .admin-paperSet-tg-button {
+        width: 25px;
+    }
+
+    /* Course section end */
+    /* Video Section start */
+    .admin-manageVideo-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Video Section End */
+
+    /* Notice section satrt */
+    .admin-notice-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .admin-notice-formGroup {
+        width: 100%;
+    }
+
+    /* Notice Section END */
+    /* footer section start */
+    .admin-footerLeft {
+        width: 22%;
+        top: 94%;
+    }
+
+    .admin-footerRight {
+        width: 100%;
+    }
+
+    .admin-footerRight-textRight {
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .admin-footerRight-textLeft {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    /* footer section end */
+}
+
+@media (max-width: 768px) {
+
+    .admin-sidebar {
+        width: 70px;
+    }
+
+    .admin-sidebar.collapsed {
+        width: 300px;
+    }
+
+    .admin-sidebar.collapsed .admin-span {
+        width: 0;
+        display: block;
+    }
+
+    .admin-sidebar:hover {
+        width: 300px;
+    }
+
+    .admin-sidebar-header h4 {
+        font-size: 12px;
+    }
+
+    .admin-spann {
+        display: none;
+    }
+
+    .admin-sidebarMenu-outerText {
+        display: none;
+    }
+
+    .admin-dashboard-header {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .admin-profile {
+        height: 40px;
+        width: 40px;
+    }
+
+    .admin-containerPanel-card {
+        gap: 10px;
+    }
+
+    .profile-img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .profile-img img {
+        height: 40px;
+        width: 40px;
+    }
+
+
+
+    .admin-dashboard-footer h4 {
+        font-size: 28px;
+        word-spacing: 2px;
+        text-align: center;
+    }
+
+    .admin-footerRight-textRight {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    /* dashboard card  start*/
+    .admin-containerPanel-contentCard {
+        width: 48%;
+    }
+
+    /* dashboard card  start*/
+    /* Profile section satrt */
+    .aProfile-header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aProfile-header,
+    .aProfile-breadcrumb {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* profile section end */
+    /* Manage Branch Wallet start */
+    .admin-containerPanel-content {
+        width: 90%;
+    }
+
+    .admin-branchWallet-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .admin-branchWallet-formGroup {
+        width: 100%;
+    }
+
+    .admin-branchWallet-button {
+        text-align: center;
+    }
+
+    .admin-branchWallet-bLink {
+        width: 50%;
+    }
+
+
+
+    /* Manage Branch Wallet end */
+    /*--------Manage Branch Startr-----*/
+
+    .admin-manageBranch-button {
+        text-align: center;
+    }
+
+    .admin-manageBranch-bLink {
+        width: 50%;
+    }
+
+    .admin-manageBranch-tableData {
+        padding: 20px;
+    }
+
+    /*-------Manage Branch End ---------*/
+
+    /* Manage Branch Form Start */
+
+    .admin-manageBranchform-formGroup {
+        min-width: 100%;
+        margin-top: 15px;
+    }
+
+    .admin-manageBranchform-imgInput {
+        width: 80%;
+    }
+
+    /* Manage Branch Form End */
+
+    /* Mange user section start */
+    .admin-manageUser-innerLink {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .admin-manageUser-bLink {
+        width: 50%;
+        text-align: center;
+    }
+
+
+    /* Mange user section end */
+    /* course section start */
+    .admin-courses-form {
+        gap: 30px;
+    }
+
+    .admin-courses-formButton {
+        width: 95%;
+    }
+
+
+
+
+    /* course section end */
+    /* course section start */
+    .admin-subject-form,
+    .admin-syllabus-form,
+    .admin-studyMaterials-form,
+    .admin-videoClass-form,
+    .admin-ytClass-form,
+    .admin-paperSet-form,
+    .admin-marksheet-form,
+    .admin-studentReport-form,
+    .admin-feeReport-form,
+    .admin-dueFeereport-form,
+    .admin-incomeReport-form,
+    .admin-expensesReport-form {
+        flex-direction: column;
+    }
+
+    .admin-syllabus-formGroup,
+    .admin-studyMaterials-formGroup,
+    .admin-videoClass-formGroup,
+    .admin-ytClass-formGroup,
+    .admin-paperSet-formGroup,
+    .admin-marksheet-formGroup,
+    .admin-studentReport-formGroup,
+    .admin-feeReport-formGroup,
+    .admin-dueFeereport-formGroup,
+    .admin-incomeReport-formGroup,
+    .admin-expensesReport-formGroup {
+        width: 100%;
+    }
+
+    .admin-subject-formButton,
+    .admin-syllabus-formButton,
+    .admin-studyMaterials-formButton,
+    .admin-videoClass-formButton,
+    .admin-ytClass-formButton,
+    .admin-paperSet-formButton,
+    .admin-marksheet-formButton,
+    .admin-studentReport-formButton,
+    .admin-feeReport-formButton,
+    .admin-dueFeereport-formButton,
+    .admin-incomeReport-formButton,
+    .admin-expensesReport-formButton {
+        width: 85%;
+    }
+
+
+
+
+    .admin-studentReport-formButton {
+        margin-left: 20px;
+    }
+
+    .admin-studentReport-containImg {
+        font-size: 10px;
+    }
+
+    .admin-studentReport-buttonIcon {
+        font-size: 8px;
+    }
+
+
+    .admin-batch-tableHead,
+    .admin-marksheet-tableHead {
+        padding: 2px;
+        font-size: 11px;
+        font-weight: 100;
+    }
+
+    .admin-paperResult-tableHead {
+        padding: 2px;
+        font-size: 9px;
+        font-weight: 100;
+    }
+
+    .admin-batch-tableData,
+    .admin-marksheet-formData {
+        padding: 3px;
+        font-size: 9px;
+    }
+
+
+    .admin-syllabus-buttonIcon {
+        font-size: 11px;
+    }
+
+    .admin-subject-actionLink,
+    .admin-syllabus-actionLink {
+        font-size: 11px;
+    }
+
+    .admin-marksheet-actionLink {
+        font-size: 7px;
+    }
+
+    .admin-marksheet-pdf {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-marksheet-pdfLink {
+        font-size: 7px;
+    }
+
+    .admin-branchWallet-formButton {
+        width: 95%;
+        margin: auto;
+    }
+
+    .admin-subject-actionLink-btn,
+    .admin-syllabus-tg-button,
+    .admin-paperSet-tg-button,
+    .admin-managePhoto-tg-button,
+    .admin-manageVideo-tg-button {
+        width: 25px;
+    }
+
+    /* Course section end */
+
+    /* Video section start */
+    .admin-manageVideo-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .admin-videoClassform-tableLabel {
+        padding: 0px;
+    }
+
+    /* Video sevtion end */
+    /* Notice Section Start */
+    .admin-notice-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .admin-notice-formGroup {
+        width: 100%;
+    }
+
+    .admin-noticeForm-Tablerow {
+        justify-content: space-between;
+    }
+
+    .admin-noticeForm-Tablelebal {
+        width: 14%;
+    }
+
+    .admin-noticeForm-Tabledata {
+        width: 70%;
+    }
+
+    /* Notice Section End */
+    /* footer section start */
+    .admin-footerLeft {
+        display: none;
+    }
+
+    .admin-footerRight {
+        width: 100%;
+        left: 9.5%;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .admin-footerRight-textRight {
+        width: 100%;
+        font-size: 9px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .admin-footerRight-textLeft {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    /* footer section end */
+}
+
+
+@media (max-width: 630px) {
+    /* Manage Branch Wallet Start */
+
+
+
+    .admin-attendanceRep-tableHead {
+        text-align: left;
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 9;
+    }
+
+    .admin-attendanceRep-tableData {
+        text-align: left;
+        padding: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 8px;
+    }
+
+    .admin-branchWallet-actionLink,
+    .admin-manageUser-sctionLink {
+        text-align: center;
+    }
+
+    .admin-manageUser-buttonLink {
+        font-size: 6px;
+
+    }
+
+    /* Manage Branch Wallet End*/
+
+    /* student section start */
+
+    .admin-student-formInput {
+        font-size: 10px;
+    }
+
+    .admin-student-formButton {
+        width: 34%;
+    }
+
+
+    .admin-student-contain {
+        font-size: 9px;
+    }
+
+    .admin-student-innerLink {
+        gap: 3px;
+    }
+
+    .admin-student-buttonIcon {
+        font-size: 8px;
+    }
+
+    .admin-student-tg-button {
+        width: 30px;
+    }
+
+    .admin-student-actionLink {
+        font-size: 8px;
+    }
+
+    /* student section end */
+    /* Program section start */
+    .admin-program-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .admin-program-actionLink {
+        font-size: 14px;
+    }
+
+    /* Program section end */
+
+    /* sallery section start */
+    .admin-genSallary-text {
+        font-size: 13px;
+    }
+
+    .admin-genSallary-form {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .admin-genSallary-formGroup {
+        width: 100%;
+    }
+
+    /* sallery section end */
+}
+
+@media (max-width: 430px) {
+
+    /* dashboard card  start*/
+    .admin-containerPanel-contentCard {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* dashboard card  start*/
+
+    /* Profile section satrt */
+    .aProfile-header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aProfile-header,
+    .aProfile-breadcrumb {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Profile section end */
+
+    /* Manage Branch Wallet Start */
+    .admin-containerPanel-content {
+        width: 90%;
+        margin: auto;
+    }
+
+    .admin-branchWallet-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-branchWallet-formGroup {
+        width: 100%;
+    }
+
+    .admin-branchWallet-formButton {
+        width: 95%;
+        margin: auto;
+    }
+
+
+
+    .admin-branchWallet-button {
+        text-align: center;
+    }
+
+    .admin-branchWallet-bLink {
+        width: 60%;
+    }
+
+    .admin-branch-tableOuter,
+    .admin-branch-tableHead,
+    .admin-branch-tableData,
+    .admin-attendanceRep-tableOuter,
+    .admin-attendanceRep-tableHead,
+    .admin-attendanceRep-tableData,
+    .admin-advanceReport-tableOuter,
+    .admin-advanceReport-tableHead,
+    .admin-advanceReport-tableData {
+        width: 100%;
+        margin-left: auto;
+
+    }
+
+    .admin-attendanceRep-tableHead,
+    .admin-advanceReport-tableHead {
+        text-align: left;
+        display: block;
+        padding: 10px;
+    }
+
+    .admin-attendanceRep-tableData,
+    .admin-advanceReport-tableData {
+        text-align: left;
+        padding: 10px;
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    .admin-branchWallet-actionLink,
+    .admin-manageUser-actionLink {
+        text-align: center;
+    }
+
+
+    /* Manage Branch Wallet End */
+
+    /* Manage Branch Start */
+    .admin-containerPanel-content {
+        width: 90%;
+    }
+
+    .admin-manageBranch-button {
+        text-align: center;
+    }
+
+    .admin-manageBranch-bLink {
+        width: 60%;
+    }
+
+    .admin-manageBranch-tableData {
+        padding: 0px;
+        font-size: 11px;
+    }
+
+    .admin-manageBranch-img {
+        height: 30px;
+        padding-left: 5px;
+    }
+
+    .admin-manageBranch-tdText {
+        font-size: 10px;
+    }
+
+    /* Manage BrancH End */
+
+    /* Manage Branch Form Start */
+    .admin-containerPanel-content {
+        width: 85%;
+    }
+
+    .admin-manageBranchform-formGroup {
+        min-width: 100%;
+        margin-top: 15px;
+    }
+
+    .admin-manageBranchform-imgInput {
+        width: 80%;
+    }
+
+    /*Manage Branch Form End  */
+    /* Manage user section start */
+    .admin-manageUser-innerLink {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .admin-branch-button {
+        text-align: center;
+    }
+
+    .admin-manageUser-bLink {
+        width: 60%;
+        text-align: center;
+    }
+
+
+
+    /* Manage User Section End */
+    /* Employee Department section start */
+    .admin-branch-tableOuter {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .admin-branch-tableHead {
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    .admin-branch-tableData {
+        padding: 20px;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    /* Employe department section end */
+    /* Attendence report section start */
+    .admin-attendanceRep-formGroup {
+        width: 90%;
+    }
+
+    .admin-attendanceRep-formLabel {
+        width: 100%;
+    }
+
+    .admin-attendanceRep-formInput {
+        width: 100%;
+    }
+
+    /* Attendence report section end */
+    /* advanced report section start */
+
+    .admin-advanceReport-form {
+        width: 95%;
+        gap: 10px;
+    }
+
+    .admin-advanceReport-formButton {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+
+    }
+
+    .admin-advanceReport-formButtoninput {
+        justify-content: start;
+        font-size: 10px;
+
+    }
+
+    /* advanced report section end */
+    /* id card section start */
+
+    .admin-idCard-tableHead {
+        padding: 0px;
+        font-size: 13px;
+        font-weight: 400;
+
+    }
+
+    .admin-idCard-tableData
+    /* id card section end */
+
+    /* student section Start  */
+
+    .admin-student-formButton {
+        width: 140px;
+    }
+
+    .admin-student-form {
+        flex-direction: column;
+    }
+
+    .admin-student-formGroup {
+        width: 100%;
+    }
+
+    .admin-student-contain {
+        align-items: self-start;
+    }
+
+    .admin-paperQuestion-tablePagebutton {
+        padding: 7px 8px;
+        font-size: 8px;
+    }
+
+    /* student section End  */
+    /* id card section start */
+    .admin-idCard-form {
+        flex-direction: column;
+    }
+
+    .admin-idCard-formGroup {
+        width: 100%;
+    }
+
+    /* id card section end */
+    /* course section start */
+    .admin-subject-form,
+    .admin-syllabus-form,
+    .admin-studyMaterials-form,
+    .admin-videoClass-form,
+    .admin-ytClass-form,
+    .admin-zoomClass-form,
+    .admin-paperSet-form,
+    .admin-paperQuestion-form,
+    .admin-marksheet-form,
+    .admin-studentReport-form,
+    .admin-feeReport-form,
+    .admin-dueFeereport-form,
+    .admin-balanceSheet-form,
+    .admin-incomeReport-form,
+    .admin-expensesReport-form {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .admin-syllabus-formGroup,
+    .admin-studyMaterials-formGroup,
+    .admin-videoClass-formGroup,
+    .admin-ytClass-formGroup,
+    .admin-zoomClass-formGroup,
+    .admin-paperSet-formGroup,
+    .admin-paperQuestion-formGroup,
+    .admin-marksheet-formGroup,
+    .admin-studentReport-formGroup,
+    .admin-feeReport-formGroup,
+    .admin-dueFeereport-formGroup,
+    .admin-balanceSheet-formGroup,
+    .admin-incomeReport-formGroup,
+    .admin-expensesReport-formGroup {
+        width: 100%;
+    }
+
+    .admin-subject-formButton,
+    .admin-syllabus-formButton,
+    .admin-studyMaterials-formButton,
+    .admin-videoClass-formButton,
+    .admin-ytClass-formButton,
+    .admin-zoomClass-formButton,
+    .admin-marksheet-formButton,
+    .admin-studentReport-formButton,
+    .admin-feeReport-formButton,
+    .admin-dueFeereport-formButton,
+    .admin-balanceSheet-formButton,
+    .admin-incomeReport-formButton,
+    .admin-expensesReport-formButton {
+        width: 85%;
+    }
+
+
+
+    .admin-studentReport-formButton {
+        margin-left: 20px;
+    }
+
+    .admin-studentReport-containImg,
+    .admin-feeReport-containImg,
+    .admin-balanceSheet-containImg {
+        font-size: 10px;
+    }
+
+    .admin-studentReport-buttonIcon {
+        font-size: 8px;
+    }
+
+    .admin-paperSet-button {
+        justify-content: start;
+    }
+
+
+    .admin-batch-tableHead,
+    .admin-paperQuestion-tableHead,
+    .admin-marksheet-tableHead,
+    .admin-notice-tableHead,
+    .admin-suggestionBox-tableHead {
+        padding: 2px;
+        font-size: 11px;
+        font-weight: 100;
+    }
+
+    .admin-paperResult-tableHead {
+        padding: 2px;
+        font-size: 7px;
+        font-weight: 100;
+    }
+
+    .admin-batch-tableData,
+    .admin-paperQuestion-tableData,
+    .admin-marksheet-tableData,
+    .admin-notice-tableData {
+        padding: 3px;
+        font-size: 9px;
+    }
+
+    .admin-syllabus-buttonIcon,
+    .admin-studyMaterials-buttonIcon,
+    .admin-videoClass-buttonIcon,
+    .admin-ytClass-buttonIcon,
+    .admin-zoomClass-buttonIcon,
+    .admin-paperSet-buttonIcon {
+        font-size: 11px;
+    }
+
+    .admin-subject-actionLink,
+    .admin-syllabus-actionLink,
+    .admin-studyMaterials-actionLink,
+    .admin-videoClass-actionLink,
+    .admin-zoomClass-actionLink {
+        font-size: 11px;
+    }
+
+    .admin-marksheet-actionLink {
+        font-size: 7px;
+    }
+
+    .admin-marksheet-pdf {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-marksheet-pdfLink {
+        font-size: 7px;
+    }
+
+    .admin-subject-actionLink-btn,
+    .admin-syllabus-tg-button {
+        width: 25px;
+    }
+
+    .admin-ytClass-btn {
+        font-size: 8px;
+    }
+
+    .admin-paperSet-tablePagebutton {
+        padding: 7px 6px;
+    }
+
+    /* Course section end */
+
+    /* Video section statrt */
+    .admin-manageVideo-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-manageVideo-text {
+        font-size: 18px;
+    }
+
+    .admin-videoClassform-tableLabel {
+        padding: 0px;
+    }
+
+    /* Video section end */
+    /* Notice Section start */
+    .admin-notice-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-notice-formGroup {
+        width: 100%;
+    }
+
+    .admin-notice-text {
+        font-size: 18px;
+    }
+
+    .admin-notice-text {
+        font-size: 18px;
+    }
+
+    .admin-noticeForm-Tablerow {
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .admin-noticeForm-Tablelebal {
+        width: 100%;
+    }
+
+    .admin-noticeForm-Tabledata {
+        width: 100%;
+    }
+
+    /* Notice Section End */
+}
+
+@media (max-width: 480px) {
+    .admin-sidebar {
+        width: 50px;
+    }
+
+    .admin-sidebar.collapsed {
+        width: 300px;
+    }
+
+    .admin-sidebar:hover {
+        width: 300px;
+    }
+
+    .admin-sidebarLogo-img {
+        height: 38px;
+        margin: 22px 8px;
+    }
+
+    .admin-dashboard-header {
+        padding: 10px;
+        justify-content: space-between;
+        gap: 180px;
+    }
+
+    .admin-spann:hover {
+        display: block;
+    }
+
+    .admin-headerRight-wallet {
+        display: none;
+    }
+
+    .admin-dashboard-footer h4 {
+        font-size: 11px;
+        word-spacing: 2px;
+        text-align: center;
+    }
+
+    .admin-footerLeft {
+        display: none;
+    }
+
+    .admin-footerRight-textRight {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    /* employe section start */
+    .admin-employee-tableHead {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .admin-employee-tableData {
+        font-size: 11px;
+
+    }
+
+    .admin-employee-innerData {
+        font-size: 8px;
+        gap: 5px;
+    }
+
+    .admin-employee-tg-button {
+        height: 8px;
+    }
+
+    /* employe section end */
+    .admin-admitCard-form {
+        flex-direction: column;
+    }
+
+    .admin-admitCard-formGroup {
+        width: 100%;
+    }
+
+    .admin-admitCard-formButton {
+        width: 30%;
+        margin-top: 5%;
+    }
+
+    .admin-admitCard-tableHead {
+        font-size: 10px;
+        padding: 3px;
+
+    }
+
+    .admin-admitCard-tableData {
+        font-size: 10px;
+        padding: 3px;
+
+    }
+
+    .admin-admitCard-innerLink {
+        gap: 5px;
+    }
+
+    /* Admit Card Section end */
+    /* footer section start */
+    .admin-footerRight {
+        width: 100%;
+        left: 11.5%;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .admin-footerRight-textRight {
+        width: 100%;
+        font-size: 9px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .admin-footerRight-textLeft {
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    /* footer section end */
+}
+
+@media (max-width: 378px) {
+    .admin-containerPanel-content {
+        width: 90%;
+    }
+
+    /* Profile Section Satrtr */
+    .aProfile-header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .aProfile-header,
+    .aProfile-breadcrumb {
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Profile Section End */
+
+    /* Manage Branch Wallet Start */
+
+    .admin-branchWallet-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-branchWallet-formInput {
+        padding: 8px 6px;
+        width: 98%;
+        margin: auto;
+    }
+
+    .admin-branchWallet-formGroup {
+        width: 100%;
+    }
+
+    .admin-branchWallet-button {
+        text-align: center;
+    }
+
+    .admin-branchWallet-bLink {
+        width: 70%;
+    }
+
+
+    /* Manage Branch Wallet End */
+
+    /* ---Manage Branch Start----- */
+
+
+    .admin-manageBranch-button {
+        text-align: center;
+    }
+
+    .admin-manageBranch-bLink {
+        width: 70%;
+    }
+
+    .admin-manageBranch-tableData {
+        padding: 10px;
+    }
+
+    /* -------Manage Branch End------ */
+    /* Manage Branch Form Satrt */
+
+    .admin-manageBranchform-formGroup {
+        min-width: 100%;
+    }
+
+    .admin-manageBranchform-text {
+        font-size: 18px;
+    }
+
+    /* Manage Branch Form End */
+    /* Manage user section start */
+    .admin-manageUser-innerLink {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .admin-manageUser-bLink {
+        width: 70%;
+        text-align: center;
+    }
+
+
+
+    /* Manage User Section End */
+
+    /* employee section start */
+    .admin-employee-tableOuter,
+    .admin-employee-tableHead,
+    .admin-employee-tableData {
+        /* display: block; */
+        width: 100%;
+        margin-left: auto;
+    }
+
+    .admin-employee-tableHead {
+        text-align: left;
+        display: block;
+        padding: 5px;
+    }
+
+
+    .admin-employee-tableData {
+        text-align: left;
+        padding: 5px;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    /* employee section end */
+    /* admit card start*/
+    .admin-admitCard-formButton {
+        width: 50%;
+    }
+
+    /* admit card end */
+    /* courses section start */
+
+    .admin-courses-form,
+    .admin-suggestionBox-form {
+        flex-direction: column;
+    }
+
+    .admin-suggestionBox-formGroup {
+        width: 100%;
+    }
+
+    .admin-suggestionBox-formButton {
+        width: 80%;
+        margin-left: 25px;
+    }
+
+    .admin-suggestionBox-tableHead {
+        font-size: 8px;
+    }
+
+    .admin-suggestionBox-text {
+        font-size: 11px;
+    }
+
+    .admin-courses-formButton {
+        width: 100%;
+    }
+
+    .admin-courses-actionLink {
+        font-size: 15px;
+    }
+
+    .admin-courses-actionLink-btn {
+        width: 20px;
+    }
+
+
+
+    .admin-studentReport-formButton {
+        margin-left: 20px;
+    }
+
+    .admin-studentReport-containImg {
+        font-size: 10px;
+    }
+
+    .admin-studentReport-buttonIcon {
+        font-size: 8px;
+    }
+
+    .admin-studentReport-tablePagebutton {
+        padding: 7px 6px;
+        font-size: 11px;
+    }
+
+    /* courses section end */
+
+    /* Video form section start */
+    .admin-manageVideo-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-manageVideo-text {
+        font-size: 18px;
+    }
+
+    /* Video form section end */
+
+    /* Notice Form Section start */
+    .admin-notice-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .admin-notice-formGroup {
+        width: 100%;
+    }
+
+    .admin-notice-text {
+        font-size: 18px;
+    }
+
+    /* Notice section end */
+
+    /* footer section start */
+    .admin-footerRight {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+
+    }
+
+    .admin-footerRight-textRight {
+        width: 100%;
+        font-size: 9px;
+    }
+
+    .admin-footerRight-textLeft {
+        padding-right: 0px;
+        padding-top: 0px;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    /* footer section end */
+
+}
+
+@media (max-width: 320px) {
+    .admin-sidebar.collapsed {
+        width: 300px;
+    }
+
+    .admin-sidebar:hover {
+        width: 300px;
+    }
+
+    /* dashboard card  start*/
+    .admin-containerPanel-contentCard {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* dashboard card  end*/
+
+    /* Manage Branch Wallet start */
+    /* Manage Branch Wallet end */
+
+
+
+
+
+}
+
+/* header footer and dashboard section responsive code */
+
+
+/* ================================= */

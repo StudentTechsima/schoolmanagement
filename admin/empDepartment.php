@@ -1,97 +1,142 @@
 <?php
-include('layout/header.php');
+include('layout/aheader.php');
 ?>
 
-<main class="admin-main-section">
+<!-- sidebar section start -->
+<?php
+include('layout/aaside.php');
+?>
 
-    <?php
-    include('layout/aside.php');
-    ?>
+<!-- sidebar section end -->
 
-    <section class="admin-container-panel" id="admin-panel">
-        <div class="admin-containerPanel-header">
-            <h3 class="admin-containerPanel-text">Control Panel</h3>
-            <h2 class="admin-containerPanel-controlText"><a href="" class="controlText-link"><i class="fa-solid fa-gauge"></i>
-                    Home ›</a><span class="admin-containerPanel-spanText">Dashboard</span></h2>
+<!-- main section start -->
+<div class="admin-dashboard">
+    <!-- header section start -->
+    <div class="admin-dashboard-header">
+        <div class="toggle-btn"><i class="fa fa-bars"></i></div>
+        <div class="admin-headerRight-header-left">
+            <div class="admin-headerRight-wallet">
+                <h4>Branch Wallet<span class="admin-headerRight-walletMoney">&#8377;7800</span></h4>
+            </div>
+            <div class="admin-headerRight-logo">
+                <img src="/schoolmanagement/admin/images/adminLogo.png" alt="" id="admin-profileImage">
+                <div id="admin-profileImage-popup" class="admin-headerRight-profileImage-popup">
+                    <div class="admin-headerRight-popupContent">
+                        <h2 class="admin-headerRight-popup-contentText">Webadmin</h2>
+                        <h3 class="admin-headerRight-popup-contentText">Student Study Point & IT Education
+                        </h3>
+
+                        <div class="admin-headerRight-popupButton">
+                            <button class="admin-headerRight-profileButton">
+                                <a href="" class="admin-headerRight-profileButton-text">Profile</a>
+                            </button>
+                            <button class="admin-headerRight-profileButton">
+                                <a href="" class="admin-headerRight-profileButton-text">Sign Out</a>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="admin-containerPanel-content">
-            <div class="admin-branch-container">
-                <h2 class="admin-branch-text"><i class="fa fa-file"></i> MANGE BATCH</h2>
-                <div class="admin-branch-button">
-                    <a href="empDepform.php" class="admin-branch-bLink">Add New Department</a>
+    </div>
+    <!-- header section end -->
+    <!-- dashboard Data -->
+    <div class="admin-dashboard-main">
+        <main class="admin-main-section">
+            <section class="admin-container-panel" id="admin-panel">
+                <div class="admin-containerPanel-header">
+                    <h3 class="admin-containerPanel-text">Control Panel</h3>
+                    <h2 class="admin-containerPanel-controlText"><a href="" class="controlText-link"><i
+                                class="fa-solid fa-gauge"></i>
+                            Home ›</a><span class="admin-containerPanel-spanText">Dashboard</span></h2>
                 </div>
 
-                <table class="admin-branch-tableOuter">
-                    <thead>
-                        <tr>
-                            <th class="admin-branch-tableHead">S.No</th>
-                            <th class="admin-branch-tableHead">Department Name</th>
-                            <th class="admin-branch-tableHead">Action</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="admin-branch-tableData">
-                                <div class="admin-branch-containImg">
-                                    1.
-                                </div>
-                            </td>
-                            <td class="admin-branch-tableData">
-                                Computer Teachers
-                            </td>
-                            <td class="admin-branch-tableData">
-                                <div class="admin-branch-innerData">
-                                    <a href="" class="admin-branch-actionLink">
-                                        <i class="fa fa-edit"></i>
-                                    </a>
-                                    <a href="" class="admin-branch-actionLink">
-                                        <i class="fa fa-trash"></i>
-                                    </a>
-                                    <img src=" /adminZone/admin/imajes/but_ban_small.png" class="admin-syllabus-tg-button">
-                                </div>
+                <div class="admin-containerPanel-content">
+
+                    <!-- copy and paste section start -->
+                    <div class="admin-branch-container">
+                        <h2 class="admin-branch-text"><i class="fa fa-file"></i> MANGE BATCH</h2>
+                        <div class="admin-branch-button">
+                            <a href="empDepform.php" class="admin-branch-bLink">Add New Department</a>
+                        </div>
+
+                        <div class="table-wraper">
+                            <table class="admin-branch-tableOuter">
+                                <thead>
+                                    <tr>
+                                        <th class="admin-branch-tableHead">S.No</th>
+                                        <th class="admin-branch-tableHead">Department Name</th>
+                                        <th class="admin-branch-tableHead">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="admin-branch-tableData">
+                                            <div class="admin-branch-containImg">
+                                                1.
+                                            </div>
+                                        </td>
+                                        <td class="admin-branch-tableData">
+                                            Computer Teachers
+                                        </td>
+                                        <td class="admin-branch-tableData">
+                                            <div class="admin-branch-innerData">
+                                                <a href="empDepupdate.php" class="admin-branch-actionLink">
+                                                    <i class="fa fa-edit"></i>
+                                                </a>
+                                                <a href="" class="admin-branch-actionLink">
+                                                    <i class="fa fa-trash"></i>
+                                                </a>
+                                                <img src=" /adminZone/admin/imajes/but_ban_small.png" class="admin-syllabus-tg-button">
+                                            </div>
 
 
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="admin-branch-tableData">
-                                <div class="admin-branch-containImg">
-                                    1.
-                                </div>
-                            </td>
-                            <td class="admin-branch-tableData">
-                                Computer Teachers
-                            </td>
-                            <td class="admin-branch-tableData">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="admin-branch-tableData">
+                                            <div class="admin-branch-containImg">
+                                                1.
+                                            </div>
+                                        </td>
+                                        <td class="admin-branch-tableData">
+                                            Computer Teachers
+                                        </td>
+                                        <td class="admin-branch-tableData">
 
-                                <div class="admin-branch-innerData">
-                                    <a href="" class="admin-branch-actionLink">
-                                        <i class="fa fa-edit"></i>
-                                    </a>
-                                    <a href="" class="admin-branch-actionLink">
-                                        <i class="fa fa-trash"></i>
-                                    </a>
-                                    <img src=" /adminZone/admin/imajes/but_ban_small.png" class="admin-syllabus-tg-button">
-                                </div>
-
-
-                            </td>
-                        </tr>
+                                            <div class="admin-branch-innerData">
+                                                <a href="empDepupdate.php" class="admin-branch-actionLink">
+                                                    <i class="fa fa-edit"></i>
+                                                </a>
+                                                <a href="" class="admin-branch-actionLink">
+                                                    <i class="fa fa-trash"></i>
+                                                </a>
+                                                <img src=" /adminZone/admin/imajes/but_ban_small.png" class="admin-syllabus-tg-button">
+                                            </div>
 
 
-                    </tbody>
-                </table>
-            </div>
+                                        </td>
+                                    </tr>
 
 
-        </div>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
 
-    </section>
+                    <!-- copy and paste section start -->
+
+                </div>
+
+            </section>
 
 
-</main>
+        </main>
+    </div>
+    <!-- main section end -->
 
-<?php
-include('layout/footer.php');
-?>
+
+    <?php
+    include('layout/afooter.php');
+    ?>
