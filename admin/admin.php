@@ -1,197 +1,248 @@
 <?php
-include('layout/header.php');
+include('layout/aheader.php');
 ?>
 
+<!-- sidebar section start -->
+<?php
+include('layout/aaside.php');
+?>
 
-<main class="admin-main-section">
+<!-- sidebar section end -->
+
+<!-- main section start -->
+<div class="admin-dashboard">
+    <!-- header section start -->
+    <div class="admin-dashboard-header">
+        <div class="toggle-btn"><i class="fa fa-bars"></i></div>
+        <div class="admin-headerRight-header-left">
+            <div class="admin-headerRight-wallet">
+                <h4>Branch Wallet<span class="admin-headerRight-walletMoney">&#8377;7800</span></h4>
+            </div>
+            <div class="admin-headerRight-logo">
+                <img src="/schoolmanagement/admin/images/adminLogo.png" alt="" id="admin-profileImage">
+                <div id="admin-profileImage-popup" class="admin-headerRight-profileImage-popup">
+                    <div class="admin-headerRight-popupContent">
+                        <h2 class="admin-headerRight-popup-contentText">Webadmin</h2>
+                        <h3 class="admin-headerRight-popup-contentText">Student Study Point & IT Education
+                        </h3>
+
+                        <div class="admin-headerRight-popupButton">
+                            <button class="admin-headerRight-profileButton">
+                                <a href="" class="admin-headerRight-profileButton-text">Profile</a>
+                            </button>
+                            <button class="admin-headerRight-profileButton">
+                                <a href="" class="admin-headerRight-profileButton-text">Sign Out</a>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section end -->
+    <!-- dashboard Data -->
+    <div class="admin-dashboard-main">
+        <main class="admin-main-section">
+            <section class="admin-container-panel" id="admin-panel">
+                <div class="admin-containerPanel-header">
+                    <h3 class="admin-containerPanel-text">Control Panel</h3>
+                    <h2 class="admin-containerPanel-controlText"><a href="" class="controlText-link"><i
+                                class="fa-solid fa-gauge"></i>
+                            Home ›</a><span class="admin-containerPanel-spanText">Dashboard</span></h2>
+                </div>
+
+                <div class="admin-containerPanel-content">
+
+                    <!-- copy and paste section start -->
+                    <div class="admin-containerPanel-card">
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">06</div>
+                                <div class="admin-containtCard-title">BRANCH</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">37</div>
+                                <div class="admin-containtCard-title">USER</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-bar-chart"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">10</div>
+                                <div class="admin-containtCard-title">STAFF</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-user-plus icon"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">05</div>
+                                <div class="admin-containtCard-title">NEWS NOTICE</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-user-plus icon"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="admin-containerPanel-card">
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">68</div>
+                                <div class="admin-containtCard-title">STUDENT</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">28</div>
+                                <div class="admin-containtCard-title">PROGRAM</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-pie-chart"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">65</div>
+                                <div class="admin-containtCard-title">COURSES</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-user-plus icon"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">174</div>
+                                <div class="admin-containtCard-title">SUBJECT</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-user-plus icon"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="admin-containerPanel-card">
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">03</div>
+                                <div class="admin-containtCard-title">SYLLABUS</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">01</div>
+                                <div class="admin-containtCard-title">STUDY MATERIALS</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-bar-chart"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">10</div>
+                                <div class="admin-containtCard-title">VIDEO CLASSES</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-user-plus icon"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="admin-containerPanel-contentCard">
+                            <div class="admin-containtCard-header">
+                                <div class="admin-containtCard-count">01</div>
+                                <div class="admin-containtCard-title">MARKSHEET</div>
+                                <div class="admin-containtCard-outer-icon">
+                                    <i class="fa fa-pie-chart"></i>
+                                </div>
+                            </div>
+                            <div class="admin-containtCard-footer">
+                                <a href="#" class="more-info">More info <i
+                                        class="fa fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- copy and paste section start -->
+
+                </div>
+
+            </section>
+
+
+        </main>
+    </div>
+    <!-- main section end -->
 
 
     <?php
-    include('layout/aside.php');
+    include('layout/afooter.php');
     ?>
-
-    <section class="admin-container-panel" id="admin-panel">
-        <div class="admin-containerPanel-header">
-            <h3 class="admin-containerPanel-text">Control Panel</h3>
-            <h2 class="admin-containerPanel-controlText"><a href="" class="controlText-link"><i class="fa-solid fa-gauge"></i>
-                    Home ›</a><span class="admin-containerPanel-spanText">Dashboard</span></h2>
-        </div>
-
-        <div class="admin-containerPanel-content">
-            <div class="admin-containerPanel-card">
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">06</div>
-                        <div class="admin-containtCard-title">BRANCH</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-shopping-bag"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">37</div>
-                        <div class="admin-containtCard-title">USER</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-bar-chart"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">10</div>
-                        <div class="admin-containtCard-title">STAFF</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-user-plus"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">05</div>
-                        <div class="admin-containtCard-title">NEWS NOTICE</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-user-plus"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="admin-containerPanel-card">
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">68</div>
-                        <div class="admin-containtCard-title">STUDENT</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-shopping-bag"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">28</div>
-                        <div class="admin-containtCard-title">PROGRAM</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-pie-chart"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">65</div>
-                        <div class="admin-containtCard-title">COURSES</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-user-plus"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">174</div>
-                        <div class="admin-containtCard-title">SUBJECT</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-user-plus"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="admin-containerPanel-card">
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">03</div>
-                        <div class="admin-containtCard-title">SYLLABUS</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-shopping-bag"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">01</div>
-                        <div class="admin-containtCard-title">STUDY MATERIALS</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-bar-chart"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">10</div>
-                        <div class="admin-containtCard-title">VIDEO CLASSES</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-user-plus"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-                <div class="admin-containerPanel-contentCard">
-                    <div class="admin-containtCard-header">
-                        <div class="admin-containtCard-count">01</div>
-                        <div class="admin-containtCard-title">MARKSHEET</div>
-                        <div class="admin-containtCard-icon">
-                            <i class="fa fa-pie-chart"></i>
-                        </div>
-                    </div>
-                    <div class="admin-containtCard-footer">
-                        <a href="#" class="more-info">More info <i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
-    </section>
-
-
-</main>
-
-
-<?php
-include('layout/footer.php');
-?>
