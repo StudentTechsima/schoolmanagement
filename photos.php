@@ -6,7 +6,7 @@ include 'layout/header.php';
         <div class="hero1-img">
         <div class="hero1-text">
             <h2>Our <span>Photos</span></h2>
-            <p><a href="home.html" class="read-btn3"><span>HOME</span>  / Gallery  </a> Photos</p>
+            <p><a href="home.html" class="read-btn3"><span>HOME</span>  / Gallery  / </a> Photos</p>
         </div>
         </div>
     </div>
@@ -186,6 +186,24 @@ include 'layout/header.php';
 
         </div>
     </div>
+    <script>
+            function show(ele) {
+
+                // image set on the main image section of the modal when we click on any image that is available on the gallery section
+                let modal = document.querySelector("#modal");
+                if (modal.style.display === 'flex') {
+                    modal.style.display = 'none';
+                } else {
+                    document.querySelector("#moda_img").src = ele.src;
+                    modal.style.display = 'flex';
+                }
+            }
+
+            // when click on close button then modal display none
+            document.querySelector("#cut").addEventListener("click", () => {
+                let modal = document.querySelector("#modal").style.display = 'none';
+            })
+    </script>
 <?php 
 include 'layout/footer.php';
 ?>

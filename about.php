@@ -65,10 +65,7 @@ include 'layout/header.php';
                 </div>
             </div>
         </div>
-    </section>
-    <section>
-        <h1>new record</h1>
-    </section>
+    </section>n
 <?php 
 include 'layout/footer.php';
 ?>
