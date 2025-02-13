@@ -4,7 +4,7 @@ include 'layout/header.php';
     <!-- hero section start -->
     <div class="hero">
         <div class="hero-img">
-            <!-- <img src="images/4.jpg" alt=""> -->
+            <img src="images/background3.png" alt="">
         </div>
         <div class="hero-text">
             <h3>Technology & It Solutions</h3>

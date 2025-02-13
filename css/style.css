@@ -5,8 +5,8 @@
     --ternury: #6998AB;
     --fourth: #406882;
     --fifth: #1b374d;
-    --shadow-black: 0 5px 15px rgba(6, 6, 6, 0.5);
-    --shadow-black300: 0 5px 15px rgba(0, 0, 0, .3);
+    --shadow-black: 0 1px 5px rgba(6, 6, 6, 0.5);
+    --shadow-black300: 0 1px 5px rgba(0, 0, 0, .3);
     --sixth: linear-gradient(#ADCBD7, #6998AB);
     --services: linear-gradient(#406882, #ADCBD7);
 }
@@ -200,7 +200,7 @@ header {
     border-top: 4px solid var(--primary);
     background-color: var(--secondary);
     position: absolute;
-    top: 116px;
+    top: 110px;
     left: 0%;
     transition: all ease 1s;
     display: none;
@@ -212,7 +212,7 @@ header {
     border-top: 4px solid var(--primary);
     background-color: var(--secondary);
     position: absolute;
-    top: 116px;
+    top: 112px;
     right: 0%;
     transition: all ease 1s;
     display: none;
@@ -229,7 +229,7 @@ header {
     background-color: var(--secondary);
     position: absolute;
     top: 50%;
-    right: 101%;
+    right: 100%;
     transition: all ease 1s;
     display: none;
     z-index: 5;
@@ -274,9 +274,9 @@ header {
 }
 
 .hero-img {
-    height: 550px;
+    height: 600px;
     width: 100%;
-    background: var(--ternury);
+    background: #000;
     position: absolute;
     z-index: 1;
 }
@@ -284,7 +284,8 @@ header {
 .hero-img img {
     height: 100%;
     width: 100%;
-    opacity: .3;
+    object-fit: cover;
+    opacity: .5;
     position: absolute;
     z-index: 1;
 }
@@ -298,7 +299,7 @@ header {
     gap: 10px;
     position: absolute;
     left: 7.5%;
-    top: 17%;
+    top: 19%;
     z-index: 3;
 }
 
@@ -420,6 +421,10 @@ header {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+}
+
+.hero1-text p {
+    text-transform: uppercase;
 }
 
 .hero1-text span {
@@ -722,13 +727,15 @@ header {
 }
 
 .service-box:hover h3 {
-    color: #000000;
+    color: #ffffff;
 }
 
 .service-box p {
+    text-align: justify;
+    padding: 10px;
     position: absolute;
     top: 36%;
-    left: 10px;
+    left: 0px;
     z-index: 1;
 }
 
@@ -1479,6 +1486,7 @@ header {
 .std-login-circle h1 {
     font-size: 56px;
     font-weight: 500;
+    margin-bottom: -8px;
 }
 
 .std-text span {
@@ -1615,6 +1623,7 @@ header {
     border-radius: 8px;
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     padding-top: 5px;
 }
 

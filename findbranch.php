@@ -77,13 +77,41 @@ include 'layout/header.php';
                     <a href="" class="read-btn4">Search</a>
                 </div>
                 <div class="right-find-branch">
-                    <table style="width:100%;">
+                    <table style="width:99%;" border="1" cellspacing="0">
                         <tr>
                             <td style="width:7%; text-align:center;"><strong>Sr. No.</strong></td>
                             <td style="width:15%; text-align:center;"><strong>Centre Code</strong></td>
                             <td style="width:38%; text-align:center;"><strong>Centre Name</strong></td>
                             <td style="width:20%; text-align:center;"><strong>Centre Head</strong></td>
                             <td style="width:20%; text-align:center;"><strong>Address</strong></td>
+                        </tr>
+                        <tr>
+                            <td style="width:7%; text-align:center;"><strong>1</strong></td>
+                            <td style="width:15%; text-align:center;"><strong>2345</strong></td>
+                            <td style="width:38%; text-align:center;"><strong>GGPG</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>Sudhakar</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>ayodhya</strong></td>
+                        </tr>
+                        <tr>
+                            <td style="width:7%; text-align:center;"><strong>1</strong></td>
+                            <td style="width:15%; text-align:center;"><strong>2345</strong></td>
+                            <td style="width:38%; text-align:center;"><strong>GGPG</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>Sudhakar</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>ayodhya</strong></td>
+                        </tr>
+                        <tr>
+                            <td style="width:7%; text-align:center;"><strong>1</strong></td>
+                            <td style="width:15%; text-align:center;"><strong>2345</strong></td>
+                            <td style="width:38%; text-align:center;"><strong>GGPG</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>Sudhakar</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>ayodhya</strong></td>
+                        </tr>
+                        <tr>
+                            <td style="width:7%; text-align:center;"><strong>1</strong></td>
+                            <td style="width:15%; text-align:center;"><strong>2345</strong></td>
+                            <td style="width:38%; text-align:center;"><strong>GGPG</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>Sudhakar</strong></td>
+                            <td style="width:20%; text-align:center;"><strong>ayodhya</strong></td>
                         </tr>
                     </table>
                 </div>
